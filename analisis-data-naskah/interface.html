@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pencarian Aksara Jawa - Sistem Semantik</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>📜 Sistem Pencarian Aksara Naskah Kuno</h1>
+    <p>Temukan lokasi dan informasi naskah dari aksara Jawa yang kamu masukkan</p>
+  </header>
+
+  <main>
+    <!-- Input Aksara Jawa -->
+    <section>
+      <h2>🔍 Masukkan Aksara Jawa</h2>
+      <textarea id="aksara-input" rows="2" placeholder="Contoh: ꦩꦤ꧀ꦢꦸ"></textarea>
+      <button onclick="cariAksara()">Cari Lokasi</button>
+    </section>
+
+    <!-- Hasil Lokasi dan Metadata -->
+    <section id="hasil-section">
+      <h2>📖 Hasil Pencarian</h2>
+      <div id="hasil-container">
+        <!-- Hasil akan ditampilkan di sini -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sistem Pencarian Semantik | Tim: Tamara & Theodora</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

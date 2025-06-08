@@ -1,0 +1,2590 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/naskah-gandoang-ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:SusuhunanSenapatiIngNgalaga a ex:Tokoh ;
+    ex:memberiKuasaKepada ex:Sangasar ;
+    foaf:name "Susuhunan Senapati Ing Ngalaga" .
+
+ex:memuatAksaraJawa a rdf:Property ;
+    rdfs:label "memuat aksara Jawa" ;
+    rdfs:domain ex:BarisTeks ;
+    rdfs:range xsd:string .
+
+ex:memuatBarisTeks a rdf:Property ;
+    rdfs:label "memuat baris teks" ;
+    rdfs:domain ex:HalamanNaskah ;
+    rdfs:range ex:BarisTeks .
+
+ex:AkiHajiMahmud a foaf:Person ;
+    foaf:name "Aki Haji Mahmud" .
+
+ex:Baris_NG_02_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "꧋ ............ ꦤꦮꦠꦤꦶꦁꦱꦸꦤ꧀" ;
+    ex:memuatTeksAsliLatin "................ (korup) nawataningsun" ;
+    ex:memuatTerjemahanIndonesia "................ (korup) Aku (sang pemilik kekuasaan)" ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_02_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦱꦸꦱꦸꦲꦸꦤꦤ꧀ ꦱꦼꦤꦥꦠꦶ ꦲꦶꦁ" ;
+    ex:memuatTeksAsliLatin "susuhunan senapati ing" ;
+    ex:memuatTerjemahanIndonesia "Susuhunan Senapati Ing Ngalaga." ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_02_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦔꦭꦒ ꦄꦱꦸꦁꦒꦢꦸꦃ ꦣꦼꦤꦶꦁ ꦱꦔ꧀ꦱꦫ ꧇ꦩꦂ" ;
+    ex:memuatTeksAsliLatin "ngalaga // gaduh dening sangasar/mar" ;
+    ex:memuatTerjemahanIndonesia "diberikan kepada Sangasar." ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_02_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦒꦤꦺ ꦒꦢꦸꦃ ꦤꦮꦭꦤꦶꦱꦸꦤ꧀ ꧇ ꦱꦶ" ;
+    ex:memuatTeksAsliLatin "gane gaduh nawalanisun / si" ;
+    ex:memuatTerjemahanIndonesia "Sebab Aku mempunyai (membuatkan) surat ini" ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_02_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦔꦁꦱꦂ ꦱꦸꦤ꧀ ꦒꦢꦸꦲꦶ ꦧꦸꦩꦶ ꦒꦭꦸꦃ" ;
+    ex:memuatTeksAsliLatin "ngangsar sun gaduhi bumi galuh" ;
+    ex:memuatTerjemahanIndonesia "Sangangsar Aku diberi kuasa (mempunyai) atas Bumi Galuh." ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_02_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦫꦠꦸꦤꦺ ꦱꦠꦺꦠꦼꦱ꧀ ꦭꦼꦩꦲꦺ ꦱ" ;
+    ex:memuatTeksAsliLatin "ratune satetes lemahe sa" ;
+    ex:memuatTerjemahanIndonesia "Ratunya setetes tanahnya sebesar biji asem (kelungsu)" ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_02_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦏꦶꦭꦸꦁꦱꦸ ꧇ ꦆꦏꦸ ꦱꦶꦁ ꦔꦁꦱꦂ ꦏꦁ ꦄꦒꦢꦸꦮꦺ ꧇" ;
+    ex:memuatTeksAsliLatin "kilungsu / iku sing ngangsar kang agaduwe //" ;
+    ex:memuatTerjemahanIndonesia "itulah Sangangsar yang berhak memiliki." ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_02_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦢꦼꦤꦺ ꦮꦺꦴꦁꦫꦠꦸ ꦮꦺꦴꦁꦫꦺꦴꦔꦼꦮꦸ ꦱꦔ" ;
+    ex:memuatTeksAsliLatin "dene wong ratu wong rongewu sanga" ;
+    ex:memuatTerjemahanIndonesia "Adapun ia berkuasa atas 2.960 (dua ribu sembilan ratus enam puluh) orang" ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_02_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦔꦠꦸꦱ꧀ ꦱꦮꦶꦢꦏ꧀ ꧇ ꦱꦥ ꦩꦲꦶ ꦢꦺ" ;
+    ex:memuatTeksAsliLatin "ngatus sawidak // sapa mahi dé" ;
+    ex:memuatTerjemahanIndonesia "diberikan kuasa dari dewa (penguasa yang lebih tinggi) … dari …" ;
+    dcterms:isPartOf ex:Halaman_NG_02 .
+
+ex:Baris_NG_03_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦱꦫꦲꦲ ꦲꦶꦁ ꦔꦫꦼꦥ꧀ (ꦠꦸꦭꦸꦁ)" ;
+    ex:memuatTeksAsliLatin "saraha ing ngarep (tulung)" ;
+    ex:memuatTerjemahanIndonesia "Bagi siapa saja yang hendak memberikan bantuan" ;
+    dcterms:isPartOf ex:Halaman_NG_03 .
+
+ex:Baris_NG_03_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦭꦪꦁ ꦱꦏ" ;
+    ex:memuatTeksAsliLatin "layang saka" ;
+    ex:memuatTerjemahanIndonesia "surat dari" ;
+    dcterms:isPartOf ex:Halaman_NG_03 .
+
+ex:Baris_NG_03_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "(ꦥꦠꦤ꧀ꦢ) ꦤ" ;
+    ex:memuatTeksAsliLatin "(patanda) na" ;
+    ex:memuatTerjemahanIndonesia "Patanda (Pecattandha) nama" ;
+    dcterms:isPartOf ex:Halaman_NG_03 .
+
+ex:Baris_NG_03_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦩ ꦩꦶꦮꦃ ꦧꦸꦩꦶ ꦭꦮꦤ꧀ ꦭꦔ(ꦔꦶꦠ꧀)" ;
+    ex:memuatTeksAsliLatin "ma miwah bumi lawan langa(ngit)" ;
+    ex:memuatTerjemahanIndonesia "serta bumi dan langit." ;
+    dcterms:isPartOf ex:Halaman_NG_03 .
+
+ex:Baris_NG_03_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦪꦪꦁ ꦠꦼꦏꦶ ꦩꦶ..... (ꦏꦺꦴꦫꦸꦥ꧀)" ;
+    ex:memuatTeksAsliLatin "yyang tèki mi..... (korup)" ;
+    ex:memuatTerjemahanIndonesia "Berasal dari Hyang (tuhan) … (kalimat rusak/tidak lengkap)" ;
+    dcterms:isPartOf ex:Halaman_NG_03 .
+
+ex:Baris_NG_04_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦥꦸꦤꦶꦏ (ꦲꦾꦁ) ꦥꦸꦤ꧀ ꦤꦺꦪꦁ ꦮꦶꦫ ꦤꦁꦒ ꦲꦂꦪ ꦥꦸꦤ꧀" ;
+    ex:memuatTeksAsliLatin "punika (eyang) pun néyang wira nangga arya pun" ;
+    ex:memuatTerjemahanIndonesia "Aku adalah Eyang Wiranangga" ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦥꦩ ꦭꦸꦮꦶꦃ ꦫꦠꦸ ꦲꦩꦱ꧀ ꦥꦸꦠꦸ ꦲꦶ" ;
+    ex:memuatTeksAsliLatin "pama luwih ratu emas putu i-" ;
+    ex:memuatTerjemahanIndonesia "paman lebih dari Ratu Emas Putu Imbanagara." ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦩ꧀ꦧꦤꦒꦫ ꧈ ꦥꦸꦤ꧀ ꦲꦾꦁ ꦲꦤꦫꦶꦩ ꦪꦺꦤ꧀" ;
+    ex:memuatTeksAsliLatin "mbanagara // pun eyang anarima yen" ;
+    ex:memuatTerjemahanIndonesia "Maka eyang menerima kesalahan" ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦏꦱꦶꦱꦶꦥꦤ꧀ ꦆ ꦩꦁꦏꦼ ꦱꦸꦤꦁꦒ ꦶ ꦏꦂ" ;
+    ex:memuatTeksAsliLatin "kasisipan i mangke sunangka i kar-" ;
+    ex:memuatTerjemahanIndonesia "oleh karena itu eyang menyerah terhadap segala kehendakmu." ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦱ ꧈ ꦥꦸꦤ꧀ ꦲꦾꦁ ꦒꦸꦔꦤ꧀ ꧈ ꦧꦭ ꦲꦔꦸꦠꦫ" ;
+    ex:memuatTeksAsliLatin "sa / pun eyang gungan // bala anggatura" ;
+    ex:memuatTerjemahanIndonesia "Eyang memiliki pasukan" ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦏꦺꦤ꧀ ꦭꦪꦁ ꦲꦶꦁ ꦢꦶꦤ ꦏꦼꦩꦶꦱ꧀ ꦠꦁꦒꦭ ꦥ꧀" ;
+    ex:memuatTeksAsliLatin "ken layang ing dina kemis tanggal p-" ;
+    ex:memuatTerjemahanIndonesia "menghaturkan surat ini pada hari Kamis tanggal 3" ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦲꦶꦁ ꦠꦶꦒ ꦱꦱꦶ ꦱꦮꦭ ꦛꦸꦤ꧀ ꦲꦺ ꧈ ꦠꦶ" ;
+    ex:memuatTeksAsliLatin "ing tiga sasi sawal tahun he // ti-" ;
+    ex:memuatTerjemahanIndonesia "bulan Syawal tahun He. (tanggal 22 Maret 1635) Titik." ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦠꦶ ꧈ ꦥꦸꦤꦶꦏ ꦭꦪꦁ ꦥꦸꦤ꧀ ꦲꦾꦁ ꦮꦶ" ;
+    ex:memuatTeksAsliLatin "ti // punika layang pun eyang wi-" ;
+    ex:memuatTerjemahanIndonesia "Ini adalah surat dari Eyang Wiranangga" ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦫꦒꦪꦁ ꦥꦩ ꦭꦸꦮꦶꦃ ꦏꦠꦸꦫ ꦢꦠꦼꦁ" ;
+    ex:memuatTeksAsliLatin "ragayang pama luwih katura dateng" ;
+    ex:memuatTerjemahanIndonesia "menghaturkan (dengan hormat) pama lebih disampaikan kepada" ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_04_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦩꦱ꧀ ꦥꦸꦠꦸ ꦲ꧀ꦧꦤꦒꦫ ꦥꦸꦤ꧀ ꦲꦾꦁ ꦲꦤ" ;
+    ex:memuatTeksAsliLatin "mas putu imbanagara pun eyang ana-" ;
+    ex:memuatTerjemahanIndonesia "Mas Putu Imbanagara. Eyang menerima." ;
+    dcterms:isPartOf ex:Halaman_NG_04 .
+
+ex:Baris_NG_05_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦫꦶꦩ ꦪꦺꦤ꧀ ꦩꦁꦏꦼ ꦏꦱꦶꦱꦶꦥꦤ꧀ ꧈ ꦲꦶꦁ ꦩꦁꦏꦼ" ;
+    ex:memuatTeksAsliLatin "rima yen mangke kasisipan // ing mangke" ;
+    ex:memuatTerjemahanIndonesia "Bahwa telah melakukan kesalahan." ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦱꦸꦩꦁꦒ ꦲꦶꦁꦏꦁ ꦏꦂꦱ ꧈ ꦥꦤ꧀ ꦆꦏꦁ ꦄ-" ;
+    ex:memuatTeksAsliLatin "sumangga ingkang karsa / pan ikang a-" ;
+    ex:memuatTerjemahanIndonesia "Oleh karena itu eyang menyerah terhadap segala kehendakmu." ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦫꦤ꧀ ꧈ ꦏꦭ ꦲꦤ꧀ꦠꦸꦂꦭꦪꦁ ꦲꦶꦁ ꦢꦶ-" ;
+    ex:memuatTeksAsliLatin "ran // kala angaturi layang ing di-" ;
+    ex:memuatTerjemahanIndonesia "Tatkala menghaturkan surat ini pada" ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦤ ꦏꦼꦩꦶꦱ꧀ ꦠꦁꦒꦭ ꦥꦶꦁ ꦠꦶꦒ ꧈ ꦱꦱꦶ ꦱ-" ;
+    ex:memuatTeksAsliLatin "na kemis tanggal ping tiga / sasih sa-" ;
+    ex:memuatTerjemahanIndonesia "pada hari Kamis tanggal 3 / bulan Syawal" ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦮꦭ ꦛꦸꦤ꧀ ꦲꦺ ꧈ ꦠꦶꦠꦶ ꧈" ;
+    ex:memuatTeksAsliLatin "wal tahun he // titi //" ;
+    ex:memuatTerjemahanIndonesia "tahun Wal tahun He. (titi mangsa)" ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦥꦸꦤꦶꦏ ꦭꦪꦁ ꦥꦸꦤ꧀ ꦲꦾꦁ ꦫꦗ ꦢꦼꦱ" ;
+    ex:memuatTeksAsliLatin "punika layang pun eyang raja desa" ;
+    ex:memuatTerjemahanIndonesia "Surat ini adalah dari Eyang Raja Desa" ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦔꦠꦸꦂ ꦢꦠꦼꦁ ꦩꦱ꧀ ꦥꦸꦠꦸ ꦆꦧꦤꦒꦫ ꧈" ;
+    ex:memuatTeksAsliLatin "ngatur dateng mas putu imbanagara //" ;
+    ex:memuatTerjemahanIndonesia "mengaturkan kepada Mas Putu Imbanagara." ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦥꦸꦤ꧀ ꦲꦾꦁ ꦲꦤꦫꦶꦩ ꦪꦼꦏꦱꦶꦱꦶꦥꦤ꧀" ;
+    ex:memuatTeksAsliLatin "pun eyang anarima yekasisipan" ;
+    ex:memuatTerjemahanIndonesia "Eyang menerima kesalahan" ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦆ ꦩꦁꦏꦼ ꦱꦸꦩꦁꦒ ꦲꦶꦁꦏꦁ ꦏꦂꦱ ꧈ ꦥꦤ꧀ ꦆ-" ;
+    ex:memuatTeksAsliLatin "i mangke sumangga ingkang karsa / pan i-" ;
+    ex:memuatTerjemahanIndonesia "oleh karena itu eyang menyerah terhadap segala kehendakmu yang mempunyai kekuasaan." ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_05_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦏꦁ ꦏꦒꦸꦔꦤ꧀ ꧈ ꦏꦭꦤ ꦲꦠꦸꦫꦶ ꦭꦪꦁ" ;
+    ex:memuatTeksAsliLatin "kang kagungan // kalana aturi layang" ;
+    ex:memuatTerjemahanIndonesia "Tatkala menghaturkan surat" ;
+    dcterms:isPartOf ex:Halaman_NG_05 .
+
+ex:Baris_NG_06_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦲꦶꦁ ꦢꦶꦤ ꦏꦼꦩꦶꦱ꧀ ꦠꦁꦒꦭ ꦥꦶꦁ ꦠꦶꦒ ꦱ" ;
+    ex:memuatTeksAsliLatin "ing dina kemis tanggal ping tiga sa" ;
+    ex:memuatTerjemahanIndonesia "Pada hari Kamis tanggal 3" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦱꦶ ꦱꦮꦭ ꦛꦸꦤ꧀ ꦲꦺ ꧈ ꦠꦶꦠꦶ ꧈" ;
+    ex:memuatTeksAsliLatin "si sawal tahun he // titi //" ;
+    ex:memuatTerjemahanIndonesia "Bulan Syawal Tahun He (tanggal 22 Maret 1635). Titik." ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦥꦼꦔꦼꦠ꧀ ꦱꦶꦠꦶ ꦒꦒ ꦢꦸꦮꦤꦶꦥꦸꦤ꧀" ;
+    ex:memuatTeksAsliLatin "penget siti gaga duwanipun" ;
+    ex:memuatTerjemahanIndonesia "Memberikan tanah ladang keduanya" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦏꦶ ꦩꦱ꧀ ꦲ꧀ꦧꦤꦒꦫ ꧈ ꦱꦶꦠ꧀ ꦏꦭꦶꦃ ꦢꦱ" ;
+    ex:memuatTeksAsliLatin "ki mas imbanagara // sit kalih dasa" ;
+    ex:memuatTerjemahanIndonesia "kepada Ki Mas Imbanagara. Tanah sejumlah dua puluh sembilan" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦱꦱꦔ ꦮꦠꦤꦶꦥꦸꦤ꧀ ꦏꦶ ꦲ꧀ꦧꦤꦒꦫ" ;
+    ex:memuatTeksAsliLatin "sasanga watanipun ki imbanagara" ;
+    ex:memuatTerjemahanIndonesia "dikuasakan kepada Ki Imbanagara" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "꧈ ꦤꦒꦫ ꦠꦼꦔꦃ ꧈ ꦥꦱꦶꦂ ꦥꦤ꧀ꦗꦁ ꧈ ꦕꦶꦗꦺꦴꦲꦺ" ;
+    ex:memuatTeksAsliLatin "// nagara tengah / pasir pan(jang) / cijojho" ;
+    ex:memuatTerjemahanIndonesia "Negara Tengah Pasir Panjang Cijoho" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦭꦺꦴꦏꦱꦤ ꧈ ꦕꦶꦥꦼꦢ ꧈ ꦱꦶꦢꦁꦏ꧀ꦱꦲꦶꦱ꧀ ꦱꦶ" ;
+    ex:memuatTeksAsliLatin "lokasana / cipede / sidang(k)sahis / si-" ;
+    ex:memuatTerjemahanIndonesia "Lokasana Cipede Sidangkasih Si" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦱꦶꦢꦁꦭ ꧈ ꦕꦶꦥꦫꦗ꧀ ꧈ ꦥꦩꦺꦠ꧀ꦠꦤ꧀ ꧈ ꦩꦤꦺꦴ-" ;
+    ex:memuatTeksAsliLatin "sidangla / ciparaj / pamotan / mano-" ;
+    ex:memuatTerjemahanIndonesia "Sidangla Ciparay Pamotan Manon" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦚꦪꦗ ꧈ ꦕꦶꦭꦺꦮꦺꦃ ꧈ ꦥꦶꦢꦤꦶ ꦱꦶꦠꦶ" ;
+    ex:memuatTeksAsliLatin "nyaja / ciluweh / pidani siti" ;
+    ex:memuatTerjemahanIndonesia "Nyaja" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_06_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦥꦶꦤꦫꦥꦠ꧀ ꧈ .......... ꦏꦁ ꦮꦺꦴꦤ꧀ꦠꦺꦤ꧀ ꦲꦶ" ;
+    ex:memuatTeksAsliLatin "pinarapat // .......... kang wonten i" ;
+    ex:memuatTerjemahanIndonesia "yang ada (diberikan) kepada" ;
+    dcterms:isPartOf ex:Halaman_NG_06 .
+
+ex:Baris_NG_07_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦏꦶꦪꦲꦶ ꦱꦸꦠ ꦤꦁꦒ ꧈ ꦏꦮꦱꦺꦤ꧀ ꧈ ꦕꦶ" ;
+    ex:memuatTeksAsliLatin "kiyahi suta nangga // kawasen / ci" ;
+    ex:memuatTerjemahanIndonesia "Kyai Sutanangga (ialah) Kawasen" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦧꦺꦴꦣꦱ꧀ ꧈ ꦒꦼꦒꦺꦂ ꧈ ꦕꦺꦩꦶꦱ꧀ ꧈ ꦕꦶꦠ" ;
+    ex:memuatTeksAsliLatin "bodas / geger / ciamis / cita" ;
+    ex:memuatTerjemahanIndonesia "Geger" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦩ꧀ꦧꦭ꧀ ꧈ ꦭꦶꦠꦸꦁ ꦩꦲꦸꦁ ꧈ ꦱꦸꦫꦥꦁ ꧈ ꦔ" ;
+    ex:memuatTeksAsliLatin "mbal / litung maung / surupan / nga" ;
+    ex:memuatTerjemahanIndonesia "Litung Maung" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦮꦺꦴꦠꦤ꧀ ꦏꦶꦪꦲꦶ ꦱꦶꦔ ꦥꦿꦧꦁꦱ ꧈" ;
+    ex:memuatTeksAsliLatin "wotan kiyahi singa prabangsa" ;
+    ex:memuatTerjemahanIndonesia "Ngawotan Kyai Singa Prabangsa" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦄꦭꦩ꧀ ꦩꦫꦥꦠꦤ꧀ ꧈ ꦧꦺꦁꦏꦺꦴ" ;
+    ex:memuatTeksAsliLatin "alam marapatan // bengko" ;
+    ex:memuatTerjemahanIndonesia "alam marapatan" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦏ꧀ ꦭꦧꦔꦤ꧀ ꧈ ꦠꦶꦂꦠ ꦏꦸꦤꦭꦁ" ;
+    ex:memuatTeksAsliLatin "k labangan / tirta kumalang" ;
+    ex:memuatTerjemahanIndonesia "Tirta Kumalang" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦏꦼꦂꦠꦧꦸꦩꦶ ꧈ ꦠꦼꦩ꧀ꦧꦺꦴꦁ ꦒꦸꦤꦸꦁ ꧈ ꦥꦁꦫ" ;
+    ex:memuatTeksAsliLatin "kertabumi / tembong gunung / pangra" ;
+    ex:memuatTerjemahanIndonesia "Kertabumi" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦪꦩꦤ꧀ ꧈ ꦏꦁ ꦮꦺꦴꦤ꧀ꦠꦺꦤ꧀ ꦏꦶꦪꦲꦶ ꦫ" ;
+    ex:memuatTeksAsliLatin "yaman / kang wonten kiyahi ra" ;
+    ex:memuatTerjemahanIndonesia "Yang berada pada Kyai Raja Desa (seperti)" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦗꦢꦺꦱ ꧈ ꦧꦺꦴꦗꦺꦁ ꦒꦭꦸꦃ ꧈ ꦈꦠꦩ" ;
+    ex:memuatTeksAsliLatin "ja desa / bojong galuh / utama" ;
+    ex:memuatTerjemahanIndonesia "Bojong Galuh Utama" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_07_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦥꦤꦩꦸꦤ꧀ ꦫꦶꦩ꧀ꦥꦏ꧀ ꦧꦶꦔꦸꦂ ꦭꦼꦮꦸꦲꦶ" ;
+    ex:memuatTeksAsliLatin "panamun rimpak bingur leuwi" ;
+    ex:memuatTerjemahanIndonesia "Panamun" ;
+    dcterms:isPartOf ex:Halaman_NG_07 .
+
+ex:Baris_NG_08_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦭꦺꦱꦶꦂ ꧈ // # // ꦥꦸꦤꦶꦏ ꦆꦏꦁ ꦲꦁꦒꦫꦥꦤ꧀" ;
+    ex:memuatTeksAsliLatin "lesir // # // punika ikang angarapan" ;
+    ex:memuatTerjemahanIndonesia "Lesir. Demikianlah yang dikuasakan kepada" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦏꦶꦪꦲꦶ ꦩꦱ꧀ ꦲ꧀ꦧꦤꦒꦫ ꧈ ꦏꦁ" ;
+    ex:memuatTeksAsliLatin "kiyahi mas imbanagara // kang" ;
+    ex:memuatTerjemahanIndonesia "Kyai Mas Imbanagara" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦏꦛꦶꦩ꧀ꦧꦭꦤ꧀ ꦏꦶꦤꦩꦤꦫꦥꦠ꧀" ;
+    ex:memuatTeksAsliLatin "katimbalan kinanamarapat" ;
+    ex:memuatTerjemahanIndonesia "dipanggil disuruh membagi wilayah" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦥꦸꦤꦶꦏ ꦠꦸꦠꦸꦂ ꦭꦸꦲꦸꦂ ꦲꦤ꧀ꦢꦶꦏ ꦫꦱꦸꦭꦸꦭꦭ" ;
+    ex:memuatTeksAsliLatin "Punika tutur luhur a(n)dika rasululla" ;
+    ex:memuatTerjemahanIndonesia "Ini adalah cerita luhur sabda Rasulullah yang luhur" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦲꦶ ꦏꦁ ꦭꦸꦲꦸꦂ // ꦥꦂꦭꦸ ꦲꦔꦮꦶꦏꦤꦶ" ;
+    ex:memuatTeksAsliLatin "hi ikang luhur // perlu angawikani" ;
+    ex:memuatTerjemahanIndonesia "“Wajib mengetahui bagi semua orang Islam laki-laki dan perempuan.”" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦱꦏꦺꦲꦺ ꦮꦺꦴꦁ ꦆꦱ꧀ꦭꦩ꧀ ꦭꦤꦁ ꦭꦤ꧀ ꦆꦱ꧀ꦭꦮ" ;
+    ex:memuatTeksAsliLatin "akeh wong islam lanang lan islam wa" ;
+    ex:memuatTerjemahanIndonesia "Sangat berfaedah bagi orang yang mengetahui" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦢꦺꦴꦤ꧀ ꦱꦮꦧꦺ ꦲꦶꦏꦁ ꦲꦁꦒꦮꦶꦏ" ;
+    ex:memuatTeksAsliLatin "don sawaé hikang hangawika" ;
+    ex:memuatTerjemahanIndonesia "dan semuanya harus mengetahuinya" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦤꦶ ꧈ / ꦲꦸꦠꦮꦶ ꦤꦩꦶ ꦩꦸꦲꦩꦢꦶꦏ ꧈ / ꦆ" ;
+    ex:memuatTeksAsliLatin "ni / hutawi nabi muhamaddika / i" ;
+    ex:memuatTerjemahanIndonesia "adapun Nabi Muhammad adalah putra dari" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦏꦁ ꦫꦩ ꦲꦤꦏꦶ ꦲꦢꦸꦭꦃ // ꦢꦸꦭꦸꦭꦃ" ;
+    ex:memuatTeksAsliLatin "kang rama anaki hadhullah // adhullah" ;
+    ex:memuatTerjemahanIndonesia "Abdullah. Abdullah putra dari Abdul Muthalib" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_11 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 11 ;
+    ex:memuatAksaraJawa "ꦏꦶ ꦲꦢꦸꦭ꧀ꦩꦠꦭꦶꦧ꧀ ꦲꦤꦏ꧀ ꦏꦶ ꦫꦧꦶꦒꦶꦪ" ;
+    ex:memuatTeksAsliLatin "ki adulmatalib anak ki rabiga" ;
+    ex:memuatTerjemahanIndonesia "Abdul Muthalib anak dari Ki Rabigalib." ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_12 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 12 ;
+    ex:memuatAksaraJawa "ꦭꦶꦧ꧀ ꦤꦧꦶ ꧈ ...... ꦱꦏꦶꦁ ꦏꦁꦲꦂ ꧈ ꦩ" ;
+    ex:memuatTeksAsliLatin "lib / nabi … saking kanghar / ma" ;
+    ex:memuatTerjemahanIndonesia "Nabi … dari Kanghar" ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_08_13 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 13 ;
+    ex:memuatAksaraJawa "ꦲꦫ꧈ ꦲꦤꦏ꧀ ꦩꦭꦶꦏ꧀ ꦲꦶꦏꦸ" ;
+    ex:memuatTeksAsliLatin "har // anak malik hiku" ;
+    ex:memuatTerjemahanIndonesia "Mahar putra dari Malik." ;
+    dcterms:isPartOf ex:Halaman_NG_08 .
+
+ex:Baris_NG_09_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦏꦶ ꦤꦠ꧀ ꦏꦶ ꦠꦥ꧀ꦱꦶꦂ ꧈ ꦲꦤꦏ꧀ ꦏꦶ ꦤꦢꦃ / ꦤꦢꦃ" ;
+    ex:memuatTeksAsliLatin "ki nat ki tapsir / hanak ki nadah / nadah" ;
+    ex:memuatTerjemahanIndonesia "Ki Nat Ki Tapsir putra dari Ki Nadah" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦲꦶꦏꦸ ꦲꦤꦏ꧀ ꦏꦶ ꦗꦶꦲꦸ ꦩ ꦢꦭꦶꦤꦃ ꦠꦶ" ;
+    ex:memuatTeksAsliLatin "hiku anak ki jihu ma dallinah ti" ;
+    ex:memuatTerjemahanIndonesia "putra dari Jihu Ma Dallinah" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦏꦸ ꦤꦏ꧀ ꦏꦶ ꦩꦸꦏꦭꦶꦲꦥ꧀ ... ꦏꦶ" ;
+    ex:memuatTeksAsliLatin "ku nak ki mukalihap ... ki" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Mukallhap" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦩꦭꦸ ꧈ ꦏꦸ ꦲꦤꦏ꧀ ꦏꦶ ꦤꦗꦶꦢ꧀ ꦆꦏꦸ" ;
+    ex:memuatTeksAsliLatin "malu / ku anak ki najid iku" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Najid" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦲꦤꦏ꧀ ꦏꦶ ꦩꦭꦩ꧀ ꦆꦏꦸ ꦲꦤ" ;
+    ex:memuatTeksAsliLatin "anak ki malam iku ana" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Malam" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦏꦶ ꦏꦶ / ꦥꦲꦸꦂ ꦆꦏꦸ ꦲꦤꦏ꧀ ꦏꦶ ꦥꦫꦒ꧀" ;
+    ex:memuatTeksAsliLatin "ki ki / pahur iku anak ki parag" ;
+    ex:memuatTerjemahanIndonesia "putra dari Pahur" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦆꦏꦸ ꦲꦤꦏ꧀ ꦏꦶ ꦪꦱ꧀ꦗꦧ꧀ ꦆꦏꦸ ꦄ" ;
+    ex:memuatTeksAsliLatin "iku anak ki yasjab iku a" ;
+    ex:memuatTerjemahanIndonesia "putra dari Yasjab" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦤꦏ꧀ ꦏꦶ ꦱꦧꦶꦠ꧀ ꦏꦶ ꦧꦒꦶꦣꦲꦶꦱ꧀" ;
+    ex:memuatTeksAsliLatin "nak ki sabit anak ki bagidhais" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Sabit" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦚꦪꦶꦩ ꦧ ꦚꦪꦶꦩ꧀ ꦩꦶꦏꦸ" ;
+    ex:memuatTeksAsliLatin "nyahima bab nyahim miku" ;
+    ex:memuatTerjemahanIndonesia "Mengenai Nyahlim" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦲꦤꦏ꧀ ꦏꦶ ꦥꦶꦗꦂ / ꦥꦶꦗꦂ ꦭꦶꦏꦸ / ꦲ" ;
+    ex:memuatTeksAsliLatin "hanak ki pijar / pijar liku / ha" ;
+    ex:memuatTerjemahanIndonesia "Ki Pijar" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_11 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 11 ;
+    ex:memuatAksaraJawa "ꦤꦏ꧀ ꦏꦶ ꦥꦲꦂ / ꦲꦤꦏ꧀ ꦏꦶ ꦱꦫꦺꦴ / ꦱ" ;
+    ex:memuatTeksAsliLatin "nak ki pahar / hanaki saro / sa" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Pahar" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_12 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 12 ;
+    ex:memuatAksaraJawa "ꦫꦺꦴ ꦲꦶꦏꦸ ꦲꦤꦏ꧀ ꦏꦶ ꦲꦗꦶꦂ / ꦲꦤꦏ꧀ ꦏꦶ" ;
+    ex:memuatTeksAsliLatin "ro hiku hanak ki ajir / hanak ki" ;
+    ex:memuatTerjemahanIndonesia "dan aku anak dari Ki Ajir" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_09_13 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 13 ;
+    ex:memuatAksaraJawa "ꦱꦭꦶꦃ / ꦲꦤꦏ꧀ ꦏꦶ ꦥꦭꦧꦃ / ꦥꦭ…" ;
+    ex:memuatTeksAsliLatin "salih / hanak ki palabah / pala-" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Salih" ;
+    dcterms:isPartOf ex:Halaman_NG_09 .
+
+ex:Baris_NG_10_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦲꦤꦏ꧀ ꦏꦶ ꦱꦩ꧀ꦱꦩ꧀ ꦲꦤꦏ꧀ ꦏꦶ" ;
+    ex:memuatTeksAsliLatin "anak ki samsam anak ki" ;
+    ex:memuatTerjemahanIndonesia "anak Ki Samsam" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦲꦒꦂꦢꦶꦲ ꧈ ꦲꦤꦏ꧀ ꦏꦶ ꦩꦭ" ;
+    ex:memuatTeksAsliLatin "agaridha / anak ki mala" ;
+    ex:memuatTerjemahanIndonesia "Agaridha" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦩ꧀ ꦩꦭꦩ꧀ ꦲꦤꦏ꧀ ꦏꦶ ꦫꦱꦸꦭ" ;
+    ex:memuatTeksAsliLatin "m malam anak ki rasula" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Malam" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦫꦱꦸꦭ ꧈ ꦲꦤꦏ꧀ ꦏꦶ ꦧꦒꦢꦲꦶꦱ꧀" ;
+    ex:memuatTeksAsliLatin "rasula / anak ki bagadais" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Bagadais" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦲꦶꦏ꧀ ꧈ ꦲꦤꦏ꧀ ꦏꦶ ꦩꦱꦂ ꧈ ꦩꦱꦫ" ;
+    ex:memuatTeksAsliLatin "iki / anak ki masar / masar a" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Masar" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦤꦏ꧀ ꦏꦶ ꦩꦭꦶꦩ꧀ ꦩꦶꦏ ꧈ ꦩꦭꦶꦏ꧀" ;
+    ex:memuatTeksAsliLatin "nak ki malim mika / malik" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Malim Mika" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦲꦤꦏ꧀ ꦏꦶ ꦫꦏꦢ꧀ ꧈ ꦲꦤꦏ꧀ ꦏꦶ ꦪꦣ꧀ ꦪꦣ꧀" ;
+    ex:memuatTeksAsliLatin "anak ki rakad / anak ki yad yad" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Rakad" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦲꦤꦏ꧀ ꦏꦶ ꦄꦢꦩ꧀ ꦲꦭꦺꦃꦱꦺꦭꦩ꧀ ꧈꧈" ;
+    ex:memuatTeksAsliLatin "anak ki adam alaheslam //" ;
+    ex:memuatTerjemahanIndonesia "putra dari Ki Adam alaheslam (Nabi Adam As)." ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦥꦸꦤꦶꦏ ꦕꦫꦶꦠ ꦭꦸꦲꦸꦂ ꦤꦧꦶ ꦄꦒꦸꦁ" ;
+    ex:memuatTeksAsliLatin "punika carita luhur nabi agung" ;
+    ex:memuatTerjemahanIndonesia "Demikianlah cerita leluhur dari Nabi Muhammad SAW" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦱꦮꦧꦺ ꧈ ꦥꦶꦠꦸꦁ ꦮꦠꦫ ꦥꦶꦤꦢꦏ" ;
+    ex:memuatTeksAsliLatin "sawa­bé / pitung watara pinadaka" ;
+    ex:memuatTerjemahanIndonesia "sangat besar faedahnya. Di antara tujuh keutamaannya adalah:" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_11 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 11 ;
+    ex:memuatAksaraJawa "ꦏꦼꦤ꧀ ꦮꦠꦸ ꦗꦸꦔꦶ ꦲꦶꦏ ꦧꦠꦸꦭ꧀ꦭꦃ" ;
+    ex:memuatTeksAsliLatin "ken watu jungi hika batullah" ;
+    ex:memuatTerjemahanIndonesia "dianjurkan mengunjungi Ka'bah (Baitullah)" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_10_12 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 12 ;
+    ex:memuatAksaraJawa "ꦥꦶꦁ ꦱꦺꦮꦸꦃ ꧈ ꦭꦤ꧀ ꦥꦶꦤꦢꦏꦏꦼꦤ ꦮ…" ;
+    ex:memuatTeksAsliLatin "ping sèwu / lan pinadakaken wa-" ;
+    ex:memuatTerjemahanIndonesia "seribu kali" ;
+    dcterms:isPartOf ex:Halaman_NG_10 .
+
+ex:Baris_NG_11_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦠꦸ ꦗꦸꦔꦶ ꦲꦶꦁ ꦩꦢꦶꦤꦃ ꧈ ꦥꦶꦁ ꦱꦺꦮꦸꦃ ꧈ ꦭꦤ꧀" ;
+    ex:memuatTeksAsliLatin "tu jungi hing madinah / ping sèwu / lan" ;
+    ex:memuatTerjemahanIndonesia "mengunjungi Madinah seribu kali" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_11_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦥꦶꦤꦢꦏꦼꦏꦺꦤ ꦲꦩꦕ ꦠꦶꦒꦥꦸꦭꦸꦃ" ;
+    ex:memuatTeksAsliLatin "pinadakaken amaca tigapuluh" ;
+    ex:memuatTerjemahanIndonesia "dianjurkan membaca tigapuluh jenis ayat atau dzikir" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_11_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦗꦸꦩ ꦥꦶꦁ ꦱꦺꦮꦸꦃ ꧈ ꦭꦤ ꦥꦶꦤꦢꦏꦼꦏꦺꦤ" ;
+    ex:memuatTeksAsliLatin "juma ping sèwu / lan pinadakaken" ;
+    ex:memuatTerjemahanIndonesia "jumat seribu kali dan dianjurkan" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_11_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦭꦤ ꦮꦺꦴꦁ ꦱꦫꦱꦠꦶꦭ꧀ ꦥꦶꦁ ꦱꦺ" ;
+    ex:memuatTeksAsliLatin "lan wong serasatil ping sé" ;
+    ex:memuatTerjemahanIndonesia "bagi orang serasatil (serakah) sebanyak seribu kali" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_11_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦮꦸꦮ꧈ ꦥꦶꦤꦢꦏꦼꦏꦺꦤ ꦮꦺꦴꦁ" ;
+    ex:memuatTeksAsliLatin "wuw / pinadakaken wong" ;
+    ex:memuatTerjemahanIndonesia "kemudian dianjurkan juga kepada orang lain" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_11_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦱꦶꦢꦼꦏ ꦲꦼꦩꦱ꧀ ꦭꦶꦂ ꦱꦒꦸꦤꦸꦁ" ;
+    ex:memuatTeksAsliLatin "sideka hemas lir sagunung" ;
+    ex:memuatTerjemahanIndonesia "sedekah emas seperti sebesar gunung" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_11_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦥꦶꦁ ꦱꦺꦮꦸꦃ ꧈ ꦭꦤ꧀ ꦭꦩ꧀ ꦔꦼꦫꦶꦁ ꦫ" ;
+    ex:memuatTeksAsliLatin "ping sèwu / lan lam nagering ra" ;
+    ex:memuatTerjemahanIndonesia "seribu kali dan bagi yang masih cinta emas akan dihilangkan rasa cintanya" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_11_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦤ꧀ ꦢꦸꦩꦢꦏ꧀ ꦮꦫꦱ꧀ ꧈ ꦭꦃ ꦩꦸꦥꦠꦺ꧉" ;
+    ex:memuatTeksAsliLatin "n dumadak waras / lah mupatè." ;
+    ex:memuatTerjemahanIndonesia "dan bila menderita sakit maka akan sembuh" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_11_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦤꦺ ꦢꦸꦩꦪ꧀ꦢꦏ꧀ ꦥꦢ ꧈ ꦠꦩꦤ꧀" ;
+    ex:memuatTeksAsliLatin "né dumyadak pada / tamman" ;
+    ex:memuatTerjemahanIndonesia "dan apabila telah wafat maka akan bangkit kembali dengan sempurna" ;
+    dcterms:isPartOf ex:Halaman_NG_11 .
+
+ex:Baris_NG_12_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦠꦾꦁ ꦠꦺ ꦏꦶ ꦩꦶꦭꦸ" ;
+    ex:memuatTeksAsliLatin "tyang té ki milu" ;
+    ex:memuatTerjemahanIndonesia "Hamba bernama Ki Milu" ;
+    dcterms:isPartOf ex:Halaman_NG_12 .
+
+ex:Baris_NG_12_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦲꦔꦮꦶ ꦕꦫꦶꦠ ꦫꦱꦸꦭ ꦒꦶꦤ꧀ꦤꦶ" ;
+    ex:memuatTeksAsliLatin "angawi carita rasul ginni" ;
+    ex:memuatTerjemahanIndonesia "yang menyampaikan cerita Rasul ini" ;
+    dcterms:isPartOf ex:Halaman_NG_12 .
+
+ex:Baris_NG_12_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦠꦾ ꦩꦂꦩꦤ꧀ꦤꦶꦁ ꦒꦶꦤꦸꦫꦶꦠ꧀ ꦩꦁꦏꦺ" ;
+    ex:memuatTeksAsliLatin "tya marmanning ginurit mangko" ;
+    ex:memuatTerjemahanIndonesia "oleh karena itu disusunlah cerita" ;
+    dcterms:isPartOf ex:Halaman_NG_12 .
+
+ex:Baris_NG_12_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦕꦫꦶꦠ ꦏꦶꦢꦸꦔꦤ꧀ ꦠꦼꦩ꧀ꦧꦁ" ;
+    ex:memuatTeksAsliLatin "carita kidungan tembang" ;
+    ex:memuatTerjemahanIndonesia "yang dilantunkan dengan tembang kidung" ;
+    dcterms:isPartOf ex:Halaman_NG_12 .
+
+ex:Baris_NG_14_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦠꦾꦁ ꦠꦺ ꦏꦶ" ;
+    ex:memuatTeksAsliLatin "tyang té ki" ;
+    ex:memuatTerjemahanIndonesia "Hamba bernama Ki Milu" ;
+    dcterms:isPartOf ex:Halaman_NG_14 .
+
+ex:Baris_NG_14_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦩ꧀ꦭꦸ ꦲꦁꦒꦮꦶ ꦕꦫꦶꦠ" ;
+    ex:memuatTeksAsliLatin "mlu angawi carita" ;
+    ex:memuatTerjemahanIndonesia "mengawi (menyampaikan) Cerita Rasul" ;
+    dcterms:isPartOf ex:Halaman_NG_14 .
+
+ex:Baris_NG_14_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦫꦱꦸꦭ ꦒꦶꦤꦶꦠꦾ ꦩꦂꦩꦤꦶꁠꦒꦶꦤꦸ" ;
+    ex:memuatTeksAsliLatin "rasul ginitiya marmaning ginu" ;
+    ex:memuatTerjemahanIndonesia "Oleh karena itu disusunlah cerita" ;
+    dcterms:isPartOf ex:Halaman_NG_14 .
+
+ex:Baris_NG_14_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦫꦶꦠ꧀ ꦩꦁꦏꦺ ꦕꦫꦶꦠ ꦏꦶꦢꦸꦔꦤ꧀" ;
+    ex:memuatTeksAsliLatin "rit mangko carita kidungan" ;
+    ex:memuatTerjemahanIndonesia "yang dilantunkan dengan tembang kidung" ;
+    dcterms:isPartOf ex:Halaman_NG_14 .
+
+ex:Baris_NG_14_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦠꦼꦩ꧀ꦧꦁꦠꦼꦩ꧀ꦧꦁ ꦄꦱ꧀ꦩꦫꦤ꧀ꦢꦤ꧀" ;
+    ex:memuatTeksAsliLatin "tembang-tembang asmarandanna" ;
+    ex:memuatTerjemahanIndonesia "tembang kidung Asmaradana" ;
+    dcterms:isPartOf ex:Halaman_NG_14 .
+
+ex:Baris_NG_14_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦠꦼꦁꦱꦸꦤ꧀ ꦤꦁꦫꦸꦁ" ;
+    ex:memuatTeksAsliLatin "téngsun nangrung" ;
+    ex:memuatTerjemahanIndonesia "Hamba telah mendengar" ;
+    dcterms:isPartOf ex:Halaman_NG_14 .
+
+ex:Baris_NG_15_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦔꦸ ꦠꦸꦠꦸꦂ ꦤ꧀ꦧꦶ ꦫꦱꦸꦭ ꦭꦶꦏ //" ;
+    ex:memuatTeksAsliLatin "ngu tutur nabi rasul lika //" ;
+    ex:memuatTerjemahanIndonesia "Tentang cerita Nabi Rasulullah" ;
+    dcterms:isPartOf ex:Halaman_NG_15 .
+
+ex:Baris_NG_15_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦭꦺꦮꦶꦃ ꦧꦼꦕꦶꦏꦶ ꦩꦁꦏꦶ" ;
+    ex:memuatTeksAsliLatin "luwih beciki mangki" ;
+    ex:memuatTerjemahanIndonesia "yang lebih baik dari cerita lainnya" ;
+    dcterms:isPartOf ex:Halaman_NG_15 .
+
+ex:Baris_NG_15_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦤ꧀ ꦏꦁ ꦕꦫꦶꦠ ꦭꦾꦤ꧀ ꦤꦶꦏ" ;
+    ex:memuatTeksAsliLatin "n kang carita lyan nika" ;
+    ex:memuatTerjemahanIndonesia "Telah dituturkan dalam sastra tulisan" ;
+    dcterms:isPartOf ex:Halaman_NG_15 .
+
+ex:Baris_NG_15_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦏꦺꦴꦕꦥꦶꦁ ꦗꦿ ꦱꦱ꧀ꦠꦿ ꦩꦁꦒꦸ" ;
+    ex:memuatTeksAsliLatin "kocapping jro sastra manggū" ;
+    ex:memuatTerjemahanIndonesia "bahwa Rasulullah" ;
+    dcterms:isPartOf ex:Halaman_NG_15 .
+
+ex:Baris_NG_15_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦏꦺꦴ ꦫꦱꦸꦭ꧀ꦭꦸꦭ꧀ ꦭꦺꦮꦶꦃ ꦩꦸ" ;
+    ex:memuatTeksAsliLatin "ko rasullullah luwih mu" ;
+    ex:memuatTerjemahanIndonesia "lebih mulia" ;
+    dcterms:isPartOf ex:Halaman_NG_15 .
+
+ex:Baris_NG_15_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦲꦾ ꦱꦏꦺꦃꦺꦤ꧀ ꦤꦧ꧀ꦠꦶꦤ꧀ꦔꦶ" ;
+    ex:memuatTeksAsliLatin "iya sakéhén nabtin(n)ingi" ;
+    ex:memuatTerjemahanIndonesia "daripada semua para nabi" ;
+    dcterms:isPartOf ex:Halaman_NG_15 .
+
+ex:Baris_NG_16_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦪꦾꦁ ꦄꦁꦒꦶꦁ ꦫꦱꦸꦭ꧀ ꦭꦺꦮꦶꦃ ꦆꦏ ꦏꦁ" ;
+    ex:memuatTeksAsliLatin "Yyang Anging Rasul Lewih Ika Kang" ;
+    ex:memuatTerjemahanIndonesia "Yang Anging (Yang Kuasa) Rasul lebih dari itu yang" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦠꦶꦤꦸꦠ꧀ ꦿ ꦲꦶꦁ ꦗꦒꦠ꧀" ;
+    ex:memuatTeksAsliLatin "Tinut Re Ing Jagat // Ya" ;
+    ex:memuatTerjemahanIndonesia "Ditaati di jagat (dunia) ini // Ya" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦪ ꦪꦃ ꦲꦁꦫꦺꦃ ꦪ ꦲꦩ꧀ꦲꦢꦸꦤ" ;
+    ex:memuatTeksAsliLatin "Yah Hangreh Ya Ahmaduna" ;
+    ex:memuatTerjemahanIndonesia "Wahai penguasa" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦱ ꦭꦾꦶꦂ ꦏꦸꦩꦶꦭꦶꦥ꧀ ꦥꦸꦤꦶꦏ ꦱ" ;
+    ex:memuatTeksAsliLatin "Sa Lyir Kumilip Punika Sa" ;
+    ex:memuatTerjemahanIndonesia "Seperti berkedip" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦏꦶꦁ ꦫꦱꦸꦭ꧀ ꦥꦶꦤꦁꦏꦤꦺ ꦥꦔꦸ" ;
+    ex:memuatTeksAsliLatin "King Rasul Pinangkané Pangu" ;
+    ex:memuatTerjemahanIndonesia "Sang Rasul yang menjadi asal mula (pangkal) dari" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦭꦸꦤ꧀ꦤꦶꦁ ꦚꦮ ꦲꦶꦏ ꦥꦤ꧀ꦤꦏꦺꦏꦠꦶꦁ" ;
+    ex:memuatTeksAsliLatin "Lunning Nyawa Hika Pannakékating" ;
+    ex:memuatTerjemahanIndonesia "Semua jiwa" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦗꦒꦠ꧀ ꦠꦤ꧀ ꦭꦤ꧀ꦤ ꦲꦤ꧀ꦢꦶꦏ ꦫꦱꦸꦭ꧀" ;
+    ex:memuatTeksAsliLatin "Jagat Tan Lanna Handika Rasul" ;
+    ex:memuatTerjemahanIndonesia "Jagat (dunia) tidak lain adalah Rasul" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦪꦲꦶꦏꦸ ꦏꦏꦱꦶꦃ ꦲꦶꦁ ꦪꦾꦁ" ;
+    ex:memuatTeksAsliLatin "Yahiku Kakasih Hing Yyang // Mi" ;
+    ex:memuatTerjemahanIndonesia "Yaitu kekasih dari Yang (Allah) // Mi" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦩꦶꦮꦃ ꦧꦸꦩꦶ ꦭꦮꦤ꧀ ꦭꦁꦒꦶꦠ꧀" ;
+    ex:memuatTeksAsliLatin "Wah Bumi Lawan Langit Pan Naweta" ;
+    ex:memuatTerjemahanIndonesia "Wahai bumi dan langit" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦥꦤ꧀ ꦤꦮꦼꦠ ꦫ ꦏꦶ ꦩꦸꦲꦩꦣ꧀ ꦮꦸꦭꦤ꧀ ꦭꦤ꧀ ꦱꦿ" ;
+    ex:memuatTeksAsliLatin "Ra Ki Muhamad Wulan Lan Sra" ;
+    ex:memuatTerjemahanIndonesia "Serta Nabi Muhammad" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_11 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 11 ;
+    ex:memuatAksaraJawa "ꦔꦺꦁꦒꦺ ꦩꦁꦏ ꦭꦶꦤ꧀ꦠꦁ ꦏꦭꦮ" ;
+    ex:memuatTeksAsliLatin "Ngéngé Mangka Lintang Kalawa" ;
+    ex:memuatTerjemahanIndonesia "Serta bintang-bintang dan awan-awan" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_16_12 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 12 ;
+    ex:memuatAksaraJawa "ꦤ꧀ ꦠꦤ꧀ ꦩꦺꦒ ꦩꦸꦮꦃ ꦭꦸꦃꦏꦭꦩ꧀ ꦭꦤ꧀" ;
+    ex:memuatTeksAsliLatin "N Tan Méga Muwah Luhkalam Lan" ;
+    ex:memuatTerjemahanIndonesia "Dan juga mega dan Luhkalem (Lauhul Mahfuzh) dan" ;
+    dcterms:isPartOf ex:Halaman_NG_16 .
+
+ex:Baris_NG_17_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦲꦫꦱ꧀ ꦏꦸꦂꦱꦶ ꦠꦤ꧀ ꦭꦾꦤ꧀ ꦤꦶꦏꦸ ꦱ" ;
+    ex:memuatTeksAsliLatin "aras kursi tan lyan niku sa" ;
+    ex:memuatTerjemahanIndonesia "Arsy Kursi tiada lain itu adalah" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦏꦶꦁ ꦫꦺꦴꦃ ꦲꦶꦭꦥꦶ ꦆꦏ ꧈꧈" ;
+    ex:memuatTeksAsliLatin "king roh hilapi ika //" ;
+    ex:memuatTerjemahanIndonesia "dari roh yang melupakan itu //" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦩꦭꦺꦏꦠ꧀ ꦭꦤ꧀ ꦲꦶꦧ꧀ꦭꦶꦱ꧀ ꦲꦺꦗꦶꦩ꧀ ꦥꦺ" ;
+    ex:memuatTeksAsliLatin "malékat lan hiblis hejim pe" ;
+    ex:memuatTerjemahanIndonesia "malaikat dan iblis yang terkutuk pun" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦫꦶ ꦥꦫꦪꦔꦤ꧀ ꦱꦏꦶꦁ ꦩꦸꦲꦩꦣ꧀ ꦠ ꦩꦔ꧀" ;
+    ex:memuatTeksAsliLatin "ri parayangan saking muhamad ta mang" ;
+    ex:memuatTerjemahanIndonesia "di hadapan (tempat peribadatan) dari Muhammad itu" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦏ ꦪꦺꦏꦸ ꦢꦭꦶꦭꦺ꧈ ꦲꦭ꧀ꦪ" ;
+    ex:memuatTeksAsliLatin "ko yéku dalilé halya" ;
+    ex:memuatTerjemahanIndonesia "itu adalah dalil (bukti) yang terang/nyata" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦩꦸꦏ ꦏꦭꦾꦤ꧀ ꦤꦧꦶ ꦏꦭ꧀ꦪ ꦥꦤꦸ" ;
+    ex:memuatTeksAsliLatin "muka kalayyan nabi kalya panu" ;
+    ex:memuatTerjemahanIndonesia "permukaan/wajah dengan nabi serta semua nabi" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦠꦸꦧꦶꦁ ꦤ꧀ꦤꦧꦶ ꦫꦱꦸꦭ꧀ ꦔꦁꦏꦼꦤꦾ" ;
+    ex:memuatTeksAsliLatin "tubing nnabi rasul ngangkênya" ;
+    ex:memuatTerjemahanIndonesia "para nabi rasul yang membawanya" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦒꦒꦤ꧀ꦠꦶ ꦪꦾꦁ ꦱꦸꦏ꧀ꦩ ꧈꧈" ;
+    ex:memuatTeksAsliLatin "gaganti yyang sukma // purwakani" ;
+    ex:memuatTerjemahanIndonesia "sebagai pengganti Sang Sukma (jiwa/roh suci) // permulaan dari" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦥꦸꦂꦮꦏꦤ ꦏꦁ ꦮꦶꦤꦂꦤꦶ ꦥꦿꦠꦶꦩꦃ ꦱꦩꦔ꧀ꦏꦺ" ;
+    ex:memuatTeksAsliLatin "kang winarni pratimah samangko" ;
+    ex:memuatTerjemahanIndonesia "yang dikisahkan pertama kali sekarang" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa ".......... (korup) ꦠꦿꦶ ꦄꦢꦶ ꦗꦒꦠ꧀ ꦩꦔ꧀ꦏꦺ ꦲ" ;
+    ex:memuatTeksAsliLatin "..... (korup) tri adi jagat mangko ha" ;
+    ex:memuatTerjemahanIndonesia "..... (korup) tiga adi jagat (dunia utama/luhur) sekarang" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_11 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 11 ;
+    ex:memuatAksaraJawa "ꦩꦠꦸꦂ ꦧꦏ꧀ꦠꦶ ꦪꦾꦁ ꦱꦸꦏ꧀ꦩ ꧈" ;
+    ex:memuatTeksAsliLatin "matur bakti yyang sukma / tanantara" ;
+    ex:memuatTerjemahanIndonesia "berbakti kepada Sang Sukma / tanpa antara" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_17_12 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 12 ;
+    ex:memuatAksaraJawa "ꦠꦤꦤ꧀ꦠꦫ ꦮꦶꦤꦂꦤꦶ ꦫꦮꦸ ꦗꦶꦤ꧀ꦤꦶꦫ ꦲꦶꦁ ꦪꦾꦁ ꦔꦒꦸꦁ" ;
+    ex:memuatTeksAsliLatin "winarni rawu jinnira hing yyang ngagung" ;
+    ex:memuatTerjemahanIndonesia "dikisahkan kedatangan jinnya kepada Yang Maha Agung" ;
+    dcterms:isPartOf ex:Halaman_NG_17 .
+
+ex:Baris_NG_18_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦏꦭ ꦮꦏ꧀ꦠꦸ ꦲꦱꦧꦃꦪꦁ ꧈꧈" ;
+    ex:memuatTeksAsliLatin "Kala Waktu Asabahhyang // Ta" ;
+    ex:memuatTerjemahanIndonesia "Pada waktu bersuci (sembahyang) // dan" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_18_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦠꦤ꧀ꦥꦠꦫ ꦥꦸꦗꦶꦤꦺꦏꦺ ꦪꦺꦤ꧀ ꦱꦶ" ;
+    ex:memuatTeksAsliLatin "Npatara Pujinéké Yén Si" ;
+    ex:memuatTerjemahanIndonesia "Semoga doa/pujian itu jika" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_18_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦪꦁ ꦥꦸꦱ ꦫꦺꦏꦺꦃ ꦠꦤ꧀ ꦥꦼꦒꦠ꧀ ꦠꦿꦶ" ;
+    ex:memuatTeksAsliLatin "Yang Puasa Rekéh Tan Pegat Tri" ;
+    ex:memuatTerjemahanIndonesia "Yang berpuasa itu tidak berhenti tiga (kali/hari?)" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_18_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦭꦠ꧀ ꦩꦁꦏꦺ ꦱꦪ ꦱ꧀ꦿꦸ ꦮꦺꦢꦶ ꦪꦾꦁ" ;
+    ex:memuatTeksAsliLatin "Lat Mangko Saya Sru Wedi Hyang" ;
+    ex:memuatTerjemahanIndonesia "Maka sangatlah takut (hormat) kepada Tuhan" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_18_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦱꦸꦏ꧀ꦩ ꦩꦶꦮꦃ ꦲꦱꦶꦃ ꦲꦶꦁ ꦧꦭ ꦄ" ;
+    ex:memuatTeksAsliLatin "Sukma Miwah Asih Ing Bala A" ;
+    ex:memuatTerjemahanIndonesia "Jiwa dan kasih sayang pada anak" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_18_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦤ꧀ꦤꦏ꧀ ꦪꦠꦶꦩ꧀ ꦥꦏꦶꦂ ꦫꦶꦏꦸ ꧈" ;
+    ex:memuatTeksAsliLatin "Nnak Yatim Pakir Riku / Ki" ;
+    ex:memuatTerjemahanIndonesia "Anak yatim" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_18_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦏꦶꦤ꧀ꦤꦱꦶꦪꦤ꧀ ꦢꦺꦤ꧀ ꦱꦤ꧀ꦤꦠ ꧈꧈" ;
+    ex:memuatTeksAsliLatin "Nnasihyan Dén Sannata // Ta" ;
+    ex:memuatTerjemahanIndonesia "Akan dikasihi oleh semesta // dan" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_18_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦠꦤ꧀ ꦥꦼꦒꦠ꧀ ꦢꦤꦤ꧀ꦤꦶ ꦫꦺꦏꦶ ꦠꦺꦪ" ;
+    ex:memuatTeksAsliLatin "N Pegat Dananni Réki Toya" ;
+    ex:memuatTerjemahanIndonesia "Tidak henti-hentinya akan mengalir" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_18_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦩꦶꦭꦶ ꦆꦏ ꦏꦱꦸꦏ꧀ꦱꦿ ꦲꦶꦁ ꦗꦒꦠ꧀ ꦱ" ;
+    ex:memuatTeksAsliLatin "Mili Ika Kasuksra Ing Jagat Sa-" ;
+    ex:memuatTerjemahanIndonesia "Mengalir itu terserap ke jagat (dunia)" ;
+    dcterms:isPartOf ex:Halaman_NG_18 .
+
+ex:Baris_NG_19_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦩ꧀ꦥꦸꦤ꧀ ꦒꦢ ꦥꦭꦠ꧀ ꦠꦶꦁꦏ ꦥꦶꦤꦫꦺꦏ꧀ ꦥ" ;
+    ex:memuatTeksAsliLatin "Mpun Gada Polat Tingka Pinarek Pa" ;
+    ex:memuatTerjemahanIndonesia "Tidak ada lagi tingkah laku yang mendekati (seperti)" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_19_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦫ ꦲꦼꦩ꧀ꦧꦤ꧀ ꦥꦫ ꦲꦶꦚ꧀ꦚ ꦲꦒ꧀ꦭꦫ꧀ ꦫꦶꦏꦸ" ;
+    ex:memuatTeksAsliLatin "Ra Hemban Para Hinyanya Haglar Riku" ;
+    ex:memuatTerjemahanIndonesia "Para pengasuh" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_19_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦲꦶꦁ ꦗꦮꦶ …… ꧈꧈" ;
+    ex:memuatTeksAsliLatin "Hing Jawi ...... // Kang Putri Ha" ;
+    ex:memuatTerjemahanIndonesia "Di luar ...... // Sang putri lalu" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_19_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦏꦁ ꦥꦸꦠꦿꦶ ꦔꦤ꧀ꦢꦶꦏ ꦲꦫꦶꦱ꧀ ꦧꦧꦸ ꦲꦶꦚ꧀ꦚꦃ ꦩꦫꦺꦤ꧀ꦤ" ;
+    ex:memuatTeksAsliLatin "Ngandika Haris Babu Hinyah Marénna" ;
+    ex:memuatTerjemahanIndonesia "Berkata pelan" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_19_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "…… ꦒꦸꦤ ꦮꦺꦮꦺꦃꦲꦤ꧀ ꦩꦁꦏꦺ ꦏ" ;
+    ex:memuatTeksAsliLatin "...... Guna Wowohan Mangko Ka" ;
+    ex:memuatTerjemahanIndonesia "...... Manfaat buah (hasil) itu" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_19_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦪ ꦲꦶꦁꦱꦸꦤ꧀ ꦲꦱꦩ꧀ꦧꦪꦁ ꦠꦶꦤꦶꦁꦒ" ;
+    ex:memuatTeksAsliLatin "Ya Hingsun Hasambahyang Tininga" ;
+    ex:memuatTerjemahanIndonesia "Ya" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_19_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦭꦏꦼꦤ꧀ ꦮꦃꦪꦸ ꦏꦪ ꦮꦸꦭꦤ꧀ ꦥꦸꦂ" ;
+    ex:memuatTeksAsliLatin "Laken Wahyu Kaya Wulan Pur" ;
+    ex:memuatTerjemahanIndonesia "Membawa wahyu seperti bulan (purnama)" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_19_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦤꦩꦺꦏꦸ ꧈ ꦏꦭꦶꦮꦠ꧀ ꦲꦱꦿꦸ ꦲꦥ" ;
+    ex:memuatTeksAsliLatin "Naméku / Kaliwat Hasru Hapa" ;
+    ex:memuatTerjemahanIndonesia "Nama saya / terlalu keras (terlalu berlebihan) apa" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_19_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦢꦁ ꧈꧈ ꦱꦩ꧀ꦥꦸꦤ꧀ ꦲꦤꦶꦁꦒꦭꦶ ꦱꦶꦁꦒꦶ" ;
+    ex:memuatTeksAsliLatin "Dang // Sampun Haningali Singgi" ;
+    ex:memuatTerjemahanIndonesia "Sudah // sudah terlihat sangat tinggi" ;
+    dcterms:isPartOf ex:Halaman_NG_19 .
+
+ex:Baris_NG_20_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦲꦶꦁ ꦠꦾꦁ ꦄꦩ꧀ꦩꦶꦢꦼꦔꦼꦂ ꦯꦫ ꦈꦗꦫꦶꦁ" ;
+    ex:memuatTeksAsliLatin "Ing Tyang Ammidenger Syara Ujaring" ;
+    ex:memuatTerjemahanIndonesia "Bagi orang yang mendengar suara (perkataan)" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_20_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦯꦫ ꦠ ꦩꦔ꧀ꦏꦺ ꦲꦺꦃ ꦥꦿꦠꦶ" ;
+    ex:memuatTeksAsliLatin "Syara Ta Mangko Héh Prati" ;
+    ex:memuatTerjemahanIndonesia "Suara itu maka wahai setiap" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_20_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦩꦃ ꦱꦩ꧀ꦩꦶ ꦱꦶꦫ ꦱꦶꦁꦒ ꦩꦢꦲꦤ꧀ꦤ" ;
+    ex:memuatTeksAsliLatin "Mah Sammi Sira Singa Madahanna" ;
+    ex:memuatTerjemahanIndonesia "Bersama-sama engkau yang mengatakannya" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_20_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦕꦪꦪ ꦲꦶꦁꦏꦁ ꦠꦸꦩꦼ꧋ꦢꦏ꧀ꦏꦶꦏꦸ ꦱꦸ" ;
+    ex:memuatTeksAsliLatin "Cahyya Ingkang Tumedakkiku Su" ;
+    ex:memuatTerjemahanIndonesia "Cahaya yang turun kepadaku" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_20_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦤ꧀ ꦥꦚ꧀ꦗꦶꦔꦏꦺꦤ꧀ ꦤꦶꦁ ꦯꦪ ꧈꧈ ꦕꦪꦪ" ;
+    ex:memuatTeksAsliLatin "N Panjingaken Ning Sya // Cahyya" ;
+    ex:memuatTerjemahanIndonesia "Memasuki itu // Cahaya" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_20_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦠ ꦥꦸ꧈ꦤ꧀ꦤꦶꦏꦸ ꦤ꧀ꦤꦶ ꦲꦤ꧀ꦤꦺꦁ ꦧꦠꦸ" ;
+    ex:memuatTeksAsliLatin "Ta Punniku Nninni Annéng Batu" ;
+    ex:memuatTerjemahanIndonesia "Itu adalah permata di batu" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_20_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦏꦶꦁ ꦔꦧ꧀ꦢꦸꦭ꧀ꦭꦃ ꦄꦤꦏ꧀ꦏꦺ ꦏꦁ ꦥꦿꦧꦸ ꦩꦁ" ;
+    ex:memuatTeksAsliLatin "Kking Ngabdullah Annakké Kang Prabu Mang" ;
+    ex:memuatTerjemahanIndonesia "Abdullah" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_20_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦏꦺ ꦲꦶꦁ ꦩꦤ꧀ꦢꦶꦤ ꦫꦺꦏꦺꦃ ꦆꦏ" ;
+    ex:memuatTeksAsliLatin "Ko Ing Mandinah Rekéh Ika A" ;
+    ex:memuatTerjemahanIndonesia "Itu di Madinah adalah" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_20_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦧ꧀ꦢꦸꦭ꧀ꦩꦸꦠ꧀ꦠꦭꦶꦧ꧀ꦧꦶꦏ ꦏꦪ ꦥꦸꦠꦿ ꦭꦶ꧈" ;
+    ex:memuatTeksAsliLatin "Bdul Muttallibbika Kaya Putra Li-" ;
+    ex:memuatTerjemahanIndonesia "Abdul Muttalib" ;
+    dcterms:isPartOf ex:Halaman_NG_20 .
+
+ex:Baris_NG_21_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦭꦶꦩ ꦆꦏꦸ ꧈ ꦄꦧ꧀ꦢꦸꦭ꧀ꦭꦃ ꦏꦁ ꦠꦸꦮ ꦆꦏ ꧈꧈" ;
+    ex:memuatTeksAsliLatin "Lima Iku / Abdullah Kang Tuwa" ;
+    ex:memuatTerjemahanIndonesia "Lima itu / Abdullah yang tua" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_21_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦏꦁ ꦥꦁꦒꦸꦭꦸ ꦄꦧꦸ ꦠꦭ꧀ꦭꦶꦧ꧀ ꧈" ;
+    ex:memuatTeksAsliLatin "Ika // Kang Panggulu Abu Tallib" ;
+    ex:memuatTerjemahanIndonesia "Itu // Yang memimpin adalah Abu Thalib" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_21_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦄꦧꦱ꧀ ꦥꦤꦼꦔꦃ ꦪꦺ ꦆꦏ ꦩꦺ" ;
+    ex:memuatTeksAsliLatin "Abas Panengah Yé Ika Mé" ;
+    ex:memuatTerjemahanIndonesia "Abbas yang tengah (anak kedua) jika itu" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_21_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦤ꧀ꦤꦏ꧀ ꦲꦩ꧀ꦗꦾꦃ ꦮꦸꦫꦸꦗꦸꦤ꧀ꦤꦺ ꦮꦸ" ;
+    ex:memuatTeksAsliLatin "Nnak Amjiyah Wurujunné Wu" ;
+    ex:memuatTerjemahanIndonesia "Anak Hamzah" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_21_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦫꦒꦶꦭ꧀ ꦲꦶꦱ꧀ꦠꦿꦶ ꦥꦸꦤꦶꦏ ꦱꦸꦫꦛꦺ" ;
+    ex:memuatTeksAsliLatin "Ragil Histri Punika Suraté" ;
+    ex:memuatTerjemahanIndonesia "Wanita terakhir itu suratnya" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_21_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦤ꧀ꦤꦶꦏꦶ ..... ꦩꦤꦶꦫ ꦥꦸꦤꦶꦚ꧀ꦚ ꦩꦁ" ;
+    ex:memuatTeksAsliLatin "Nniki ..... Manira Puninyah Mang" ;
+    ex:memuatTerjemahanIndonesia "Ini ..... Saya sekarang" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_21_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦏꦺ ꦲꦸꦩꦠꦸꦂ ꧈ ꦱꦶꦁꦒꦶꦃ ꦠ ꦥꦸꦤꦥ" ;
+    ex:memuatTeksAsliLatin "Ké Humatur / Singgih Ta Punapa" ;
+    ex:memuatTerjemahanIndonesia "Berucap / Sungguh apakah" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_21_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦫꦢ꧀ꦪꦤ꧀ ꧈꧈ ꦱꦁ ꦥꦸꦠꦿꦶ ꦔꦤ꧀ꦢꦶꦏ" ;
+    ex:memuatTeksAsliLatin "Radyan // Sang Putri Ngandika" ;
+    ex:memuatTerjemahanIndonesia "Pangeran // Sang putri berkata" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_21_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦩꦭ꧀ꦭꦶꦃ ꦲꦶꦚ꧀ꦚꦤ꧀ꦪ ꦩꦁꦏꦺ ꦏꦂꦱꦤ꧀ ꦤꦶꦁ" ;
+    ex:memuatTeksAsliLatin "Mallih Hinyanya Mangké Karsan Ning" ;
+    ex:memuatTerjemahanIndonesia "Lagi-lagi budaknya sekarang ingin" ;
+    dcterms:isPartOf ex:Halaman_NG_21 .
+
+ex:Baris_NG_22_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦪꦾꦁ ꦪ ꦲꦩꦂꦭꦶꦁ ꦔꦧ꧀ꦢꦸꦭ꧀ꦭꦃ ꦲꦪꦸ" ;
+    ex:memuatTeksAsliLatin "Wyang Ya Hamarling Ngabdullah Hayu" ;
+    ex:memuatTerjemahanIndonesia "Tuhan (Yang Maha Kuasa) mengawinkan Abdullah yang tampan" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_22_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦤ꧀ ꦩꦢꦶꦤ ꦩꦁꦏꦺ ꦲꦁꦒꦸꦁꦒꦲꦶ" ;
+    ex:memuatTeksAsliLatin "N Madinah Mangko Hanggunggahi" ;
+    ex:memuatTerjemahanIndonesia "Di Madinah kemudian datang (dengan membawa)" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_22_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦏꦂꦱꦤ꧀ ꦤꦶꦁ ꦚꦁ ꧈ ꦲꦁꦭꦩꦂ ꦲꦶꦁ ꦔꦧ꧀ꦢꦸꦭ꧀ꦭꦃ" ;
+    ex:memuatTeksAsliLatin "Karsan Ning Ngyang / Hanglamar Hing Ngabdullah" ;
+    ex:memuatTerjemahanIndonesia "Kehendak Yang Maha Kuasa / Melamar kepada Abdullah" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_22_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦩꦭꦂ ꦲꦁꦔꦤ꧀ꦢꦸꦠ꧀ ꦮꦛꦺꦁꦱꦸꦤ꧀ ꦕꦪꦪ" ;
+    ex:memuatTeksAsliLatin "Malar Hangandut Waténgsun Cahyya" ;
+    ex:memuatTerjemahanIndonesia "Lalu mengandung (membawa) cahaya dalam diriku (watak saya)" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_22_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦏꦁ ꦠꦸꦩꦺꦢꦏ꧀ ꦏꦶꦏ ꧈꧈ ꦲꦶꦚ꧀ꦚꦃ" ;
+    ex:memuatTeksAsliLatin "Kang Tumedak Kika // Hinyah" ;
+    ex:memuatTerjemahanIndonesia "Yang turun itu // budak" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_22_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦏꦠꦫ ꦲꦤ꧀ꦤꦶꦤꦶꦧ ꦭꦏꦺꦤ꧀꧉" ;
+    ex:memuatTeksAsliLatin "Katara Hanniniba Lakénni" ;
+    ex:memuatTerjemahanIndonesia "Terlihat seperti jatuh (turun)" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_22_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦱꦩ꧀ꦪ ꦢꦢꦁ ꦒꦒꦩꦤ꧀ ꦭꦮꦤ꧀ ꦱꦁ ꦔꦸ" ;
+    ex:memuatTeksAsliLatin "Samya Dadang Gagaman Lawan Sang Ngu" ;
+    ex:memuatTerjemahanIndonesia "Sama-sama membawa senjata dan Sang Raja" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_22_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦤ꧀ꦝꦺ ꦧꦸꦢꦭ ꦩꦁꦏꦺ ꦏꦂꦱꦤ꧀ ꦤꦶꦁ ꦚꦁ ꧈" ;
+    ex:memuatTeksAsliLatin "Ndé Budal Mangko Karsan Ning Ngyang /" ;
+    ex:memuatTerjemahanIndonesia "Berangkatlah sekarang atas kehendak Yang Maha Kuasa /" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_22_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦲꦶꦚ꧀ꦚꦃ ꦱꦶꦫ ꦢꦁꦢꦤ ꧈ ꦫꦗ" ;
+    ex:memuatTeksAsliLatin "Hinyah Sira Dangdana / Raja" ;
+    ex:memuatTerjemahanIndonesia "Budak-budakmu berhiaslah / Raja" ;
+    dcterms:isPartOf ex:Halaman_NG_22 .
+
+ex:Baris_NG_23_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦏꦥꦸꦠꦿ ꦤꦶꦫꦺꦏꦸ ꦒꦮꦤ꧀꧈" ;
+    ex:memuatTeksAsliLatin "Kaputra Niréku Gawanné" ;
+    ex:memuatTerjemahanIndonesia "Putranya (beliau) adalah bawaannya" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_23_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦤ꧀ ꦏꦧꦺꦃ ꦢꦺꦩ꧀ꦤꦶꦫ ꧈꧈ ꦲꦩꦱ꧀" ;
+    ex:memuatTeksAsliLatin "N Kabéh Démnira // Emas" ;
+    ex:memuatTerjemahanIndonesia "Dan semuanya // Emas" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_23_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦤ꧀ꦤꦪꦏꦤ꧀ ꦤꦶꦫꦺꦏꦺ ꧈ ꦏꦭ꧀ꦥꦶ ꦏ" ;
+    ex:memuatTeksAsliLatin "Nnayakan Niréké / Kalpi Ka" ;
+    ex:memuatTerjemahanIndonesia "Menjadikan (nya) / Kalung" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_23_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦭꦮꦤ꧀ ꦒꦼꦒꦼꦭꦁ ꦏꦶꦭꦠ꧀ ꦧꦲꦸ" ;
+    ex:memuatTeksAsliLatin "Lawan Gegelang Kilat Bahu Na" ;
+    ex:memuatTerjemahanIndonesia "Dan gelang kilat di lengan" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_23_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦤ ꦒ ꦏꦸꦮꦺ ꦏꦁ ꦏꦭꦸꦁ ꦆꦤ꧀ꦠꦺꦤ꧀ ꦮꦶ" ;
+    ex:memuatTeksAsliLatin "Ga Kuwé Kang Kalung Inten Wi" ;
+    ex:memuatTerjemahanIndonesia "Ada juga kalung intan" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_23_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦢꦸꦂꦪꦾꦤ꧀ ꦩꦶꦫꦃ ꦭꦤ꧀ ꦩꦸꦠꧾꦪꦃ" ;
+    ex:memuatTeksAsliLatin "Duryyan Mirah Lan Mutyaha" ;
+    ex:memuatTerjemahanIndonesia "Berlian" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_23_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦫ ꦕꦸꦕꦸꦤ꧀ꦝꦸꦏ꧀ꦏꦤ꧀ ꦱꦼꦏꦂ ꦱꦸꦲꦸ" ;
+    ex:memuatTeksAsliLatin "Ra Cucundukkan Sekar Suhu" ;
+    ex:memuatTerjemahanIndonesia "Hiasan cucuk bunga yang indah (suhu)" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_23_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦤ꧀ ꦱꦸꦮꦼꦁ ꦭꦮꦤ꧀ ꦚꦩ꧀ꦠꦿ ꦥꦺꦭꦁ" ;
+    ex:memuatTeksAsliLatin "N Suweng Lawan Nyamtra Pélag" ;
+    ex:memuatTerjemahanIndonesia "Dan anting-anting serta cincin yang bagus" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_23_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "꧈꧈ ꦱꦩ꧀ꦥꦸꦚ ꦱꦮꦫ ꦲꦒ꧀ꦭꦶꦱ꧀ ꦏꦮꦸ" ;
+    ex:memuatTeksAsliLatin "// Sampunya Sawara Aglis Kawu-" ;
+    ex:memuatTerjemahanIndonesia "// Setelahnya suara (bunyi) lekas ter-" ;
+    dcterms:isPartOf ex:Halaman_NG_23 .
+
+ex:Baris_NG_24_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦭ ꦧꦭ ꦄꦢꦤ꧀ ꦥꦸꦤꦶꦚ꧀ꦚ ꦲꦸ" ;
+    ex:memuatTeksAsliLatin "La Bala Adan Puninyah Hu" ;
+    ex:memuatTerjemahanIndonesia "(Para) tentara (itu) sekarang" ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_24_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦩꦠꦸꦂ ꦩꦁꦏꦺ ꦱꦩ꧀ꦥꦸꦤ꧀ ꦱꦪꦒ ꦏꦁ" ;
+    ex:memuatTeksAsliLatin "Matur Mangko Sampun Sayaga Kang" ;
+    ex:memuatTerjemahanIndonesia "Berkata" ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_24_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦧꦭ ꦥꦸꦤꦥ ꦏꦂꦱ ꦠꦸꦮꦤ꧀ ꦲ" ;
+    ex:memuatTeksAsliLatin "Bala Punapa Karsa Tuwan Ha" ;
+    ex:memuatTerjemahanIndonesia "Tentara itu apa kehendak Tuan" ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_24_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦧꦸꦢꦭ ꦱꦁ ꦥꦿꦧꦸ ꧈" ;
+    ex:memuatTeksAsliLatin "Budal Sang Prabu / Ha" ;
+    ex:memuatTerjemahanIndonesia "Berangkatlah Sang Raja /" ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_24_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦲ꧀ꦤ꧀ꦤꦶꦠꦶꦃ ꦗꦩ꧀ꦥꦤ꧀ꦤ ꦲꦺꦩꦱ꧀ ꧈꧈" ;
+    ex:memuatTeksAsliLatin "Nnitih Jampanna Hemas //" ;
+    ex:memuatTerjemahanIndonesia "Menaiki usungan emas //" ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_24_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦒꦶꦤꦫꦼꦧꦼꦒ꧀ ꦧꦭ ꦤꦺꦏꦺ꧈" ;
+    ex:memuatTeksAsliLatin "Ginarebeg Bala Néké" ;
+    ex:memuatTerjemahanIndonesia "Ditemani oleh tentara" ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_24_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦮꦺꦴꦁ ꦢꦭꦼꦩ꧀ ꦭꦤ꧀ ꦥꦫ ꦲꦼꦩ꧀ꦧꦤ꧀ ꧈" ;
+    ex:memuatTeksAsliLatin "Wong Dalem Lan Para Emban .." ;
+    ex:memuatTerjemahanIndonesia "Orang-orang di dalam (istana) dan para pengasuh .." ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_24_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "…… ꦭꦥ꧀ ꦆꦏ ꦠ ꦩꦁꦏꦺ ꦫ" ;
+    ex:memuatTeksAsliLatin "...... Lap Ika Ta Mangko Ra9" ;
+    ex:memuatTerjemahanIndonesia "...... Kemudian itu" ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_24_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "꧈ꦫꦺ꧈ ꦮꦸꦁꦏꦸꦏ꧀ ꦫꦫꦺ ꦮꦢꦺꦴꦤ꧀" ;
+    ex:memuatTeksAsliLatin "RÉ WungkuK RARÉ Wadon" ;
+    ex:memuatTerjemahanIndonesia "RE membungkuk" ;
+    dcterms:isPartOf ex:Halaman_NG_24 .
+
+ex:Baris_NG_25_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦥꦸꦤ꧀ ꦧꦸꦭꦺꦴ ꦥꦸꦤꦶꦏ ꦏꦛꦃ ꦲ" ;
+    ex:memuatTeksAsliLatin "Pun Bulé Punika Kathah Ha" ;
+    ex:memuatTerjemahanIndonesia "Putih itu banyak sekali" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_25_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦩꦤ꧀ꦠꦿꦶ ꦤꦶꦥꦸꦤ꧀ꦤ꧀ ꦭꦸꦩꦩ꧀ꦥ ꦔꦂꦱ" ;
+    ex:memuatTeksAsliLatin "Mantri Nipunn Lumampa Ngarsa" ;
+    ex:memuatTerjemahanIndonesia "Menterinya berjalan di depan" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_25_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦲꦮꦸꦤ꧀ꦠꦠ꧀ ꧈꧈ ꦱꦩꦾꦤ꧀ ꦤꦶꦠꦶꦃ ꦏꦸ" ;
+    ex:memuatTeksAsliLatin "Hawuntat // Samyan Nitih Ku" ;
+    ex:memuatTerjemahanIndonesia "Di belakang // Bersama-sama menaiki kuda" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_25_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦢ ꦄꦱꦿꦶ ꦩꦶꦮꦃ ......" ;
+    ex:memuatTeksAsliLatin "Da Asri Miwah ......" ;
+    ex:memuatTerjemahanIndonesia "Yang indah dan ......" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_25_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "...... ꦄꦠꦿꦁ ꦠꦶꦤ꧀ꦤꦶꦁꦒꦭꦤ꧀ ꦩꦁ꧀ꦏꦺ" ;
+    ex:memuatTeksAsliLatin ".... Atrang Tinningalan Mangké" ;
+    ex:memuatTerjemahanIndonesia ".... Terlihat bersinar sekarang" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_25_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦒꦒꦩꦤ꧀ ꦤꦶꦁ ꦱꦲꦶꦢꦶꦤ꧀ꦤ ꦭꦾꦶꦂ ꦱꦏꦂ" ;
+    ex:memuatTeksAsliLatin "Gagaman Ning Sahidinna Lyir Sekar" ;
+    ex:memuatTerjemahanIndonesia "Senjata dari para saksi seperti bunga" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_25_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦱꦭꦱꦶ ꦫꦢ ꦠꦤ ꦏꦮꦂꦤ꧀ꦤ ꦲꦺꦁ ꦔꦺ" ;
+    ex:memuatTeksAsliLatin "Salasi Rada Tan Kawarnna Héng Nge" ;
+    ex:memuatTerjemahanIndonesia "Selasi agak tidak bisa digambarkan" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_25_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦤꦸꦃ ꦄꦒ꧀ꦭꦶꦱ꧀ ꦥꦿꦥ꧀ꦠ ꦆꦁ ꦩꦢꦶꦤ꧀ꦤ" ;
+    ex:memuatTeksAsliLatin "Nuh Aglis Prapta Ing Madinna" ;
+    ex:memuatTerjemahanIndonesia "Segeralah tiba di Madinah" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_25_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦄꦩꦺꦴꦤ꧀ꦢꦺꦴꦏ꧀ ꦗꦮꦶꦤꦶꦤ꧀ꦔ꧀ ꦏꦺꦴꦫꦶ" ;
+    ex:memuatTeksAsliLatin "Amondok Jawininnng Kori" ;
+    ex:memuatTerjemahanIndonesia "Menginap di luar pintu gerbang" ;
+    dcterms:isPartOf ex:Halaman_NG_25 .
+
+ex:Baris_NG_26_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦏꦠꦸꦂ ꦫꦶꦁ ꦱꦪꦢꦶꦤ ꦱꦁ ꦤꦠ" ;
+    ex:memuatTeksAsliLatin "Katur Ring Sayadina Sang Nata" ;
+    ex:memuatTerjemahanIndonesia "Disampaikan kepada Sayidina Sang Raja (atau Penguasa)" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_26_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦥꦸꦠꦿꦶ ꦲꦤ꧀ꦢꦶꦏ ꦩꦁꦏ ꦧꦧꦸ ꦲꦶ" ;
+    ex:memuatTeksAsliLatin "Putri Handika Mangko Babu Hi" ;
+    ex:memuatTerjemahanIndonesia "Putri berkata" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_26_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦚ ꦩꦫꦺꦤꦺꦪ ꦱꦸꦤ꧀ ꦏꦺꦴꦁꦏꦺꦴꦤ꧀" ;
+    ex:memuatTeksAsliLatin "Nya Marénéya Sun Kongkon" ;
+    ex:memuatTerjemahanIndonesia "Beliau datang kemari" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_26_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦤꦒ꧀ꦭꦶꦱ꧀ ꦱꦶꦫ ꦢꦠꦺꦁ ꦔꦶꦁ ꦗꦿ ꦏꦶꦛ" ;
+    ex:memuatTeksAsliLatin "Naglís Sira Daténg Ngíng Jro Kitha" ;
+    ex:memuatTerjemahanIndonesia "Cepatlah beliau datang ke dalam kota" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_26_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦆꦏꦸ ꧈ ꦩꦫꦺꦏꦶꦁ ꦤꦂꦠꦺꦁ ꦩꦢꦶꦤ꧀ꦃ" ;
+    ex:memuatTeksAsliLatin "Iku / Marékíng Narténg Madinah" ;
+    ex:memuatTerjemahanIndonesia "Itu / mendekati Madinah" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_26_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "꧈ ꦩꦠꦸꦫ ꦩꦁꦏꦺ ꦱꦶꦫꦺꦏꦶ ꦪꦺꦤ꧀" ;
+    ex:memuatTeksAsliLatin "// Matura Mangké Sirékí Yén" ;
+    ex:memuatTerjemahanIndonesia "// Berbicaralah sekarang" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_26_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦤꦶꦱꦸꦤ꧀ ꦤꦂꦱ ꦏꦁ ꦥꦸꦠꦿ ꦲꦁꦒꦸꦁꦒꦃ" ;
+    ex:memuatTeksAsliLatin "Nisún Narsa Kang Putra Hangunggáh" ;
+    ex:memuatTerjemahanIndonesia "Saya ingin putra (beliau) naik (mengunjungi)" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_26_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦲꦤ꧀ꦤꦮ ꦩꦁꦏ ꦔꦧ꧀ꦢꦸꦭꦃ ꦥꦸꦤ꧀ꦤꦶ" ;
+    ex:memuatTeksAsliLatin "Hannawa Mangko Ngabdullah Punni" ;
+    ex:memuatTerjemahanIndonesia "Maka Abdullah itu" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_26_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦏ ꦥꦺꦴꦩ ꦩꦠꦸꦫ ꦲꦸꦒ ꦥꦸꦤꦶꦚꦃ" ;
+    ex:memuatTeksAsliLatin "Ka Poma Matura Huga Puninyah" ;
+    ex:memuatTerjemahanIndonesia "Janganlah lupa berbicara juga sekarang" ;
+    dcterms:isPartOf ex:Halaman_NG_26 .
+
+ex:Baris_NG_27_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦲꦩꦶꦠ꧀ ꦥꦸꦏꦸꦭꦸꦤ꧀ ꦲꦒ꧀ꦭꦶꦱ꧀ ꦫꦮꦸꦃꦺ" ;
+    ex:memuatTeksAsliLatin "Hamit Pukulun Haglis Rawuhé" ;
+    ex:memuatTerjemahanIndonesia "Hamba memohon (izin) Tuan" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_27_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦥꦸꦤ꧀ ꦤꦶꦚꦃ // ꦲꦩꦶꦠ꧀ ꦠ ꦤꦼꦩ꧀ꦧꦃ .... (ꦏꦺꦴꦫꦸꦥ ꦫꦺ)" ;
+    ex:memuatTeksAsliLatin "Pun Ninya // Hamit Ta Nembah .... (korup ré)" ;
+    ex:memuatTerjemahanIndonesia "Para budak // Hamba menyembah .... (baris ini tampaknya rusak/tidak lengkap)" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_27_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦏꦶ ꦥꦸꦤ꧀ ꦤꦶꦚꦃ ꦭꦸꦩꦩ꧀ꦥꦃ ꦱꦲꦺꦁꦒ" ;
+    ex:memuatTeksAsliLatin "Ki Pun Ninyah Lumampah Sahéngga" ;
+    ex:memuatTerjemahanIndonesia "Maka para budak berjalan sehingga" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_27_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦭ ꦥꦿꦥ꧀ꦠꦺꦁ ꦥꦤꦏ꧀ꦏꦶꦭꦤ꧀ / ꦩꦁꦏꦺ ꦲ" ;
+    ex:memuatTeksAsliLatin "L Prapténg Panangkilan / Mangko Ha" ;
+    ex:memuatTerjemahanIndonesia "Tiba di tempat pertemuan / Kemudian" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_27_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦤꦠꦤꦫꦺꦏ꧀ ꦱꦶꦫ ꦩꦠꦸꦫ ꦥꦸꦤ꧀ ꦧꦧꦸ ꦲꦶ" ;
+    ex:memuatTeksAsliLatin "Natanarek Sira Matur Pun Babu Hi" ;
+    ex:memuatTerjemahanIndonesia "Dengan tak berdaya beliau berkata" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_27_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦤꦚꦃ ꦏꦮꦭ ꦔꦸꦠꦸꦱ꧀ ꦥꦸꦤꦶꦏꦃ /" ;
+    ex:memuatTeksAsliLatin "Nnyah Kawula Ngutus Punika /" ;
+    ex:memuatTerjemahanIndonesia "Hambamu diutus ini /" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_27_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦪꦸꦤ ꦢꦺꦁꦔꦶꦁ ꦥꦸꦠꦿꦶ ꦱꦪꦶꦢꦶꦤ꧀ꦤ //" ;
+    ex:memuatTeksAsliLatin "Yun Déngning Putri Sayidinna //" ;
+    ex:memuatTerjemahanIndonesia "Oleh Putri Sayyidah //" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_27_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦱꦁ ꦥꦿꦧꦸ ꦥꦸꦠꦿꦤ꧀ ꦤꦶꦫꦺꦏꦶ ꦲꦶ-" ;
+    ex:memuatTeksAsliLatin "Sang Prabu Putran Nirékí Hi-" ;
+    ex:memuatTerjemahanIndonesia "Sang Raja" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_27_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦏꦸ ꦩꦁꦏꦺ / ꦲꦶꦁ ꦔꦸꦁꦒꦃ ꦭꦤ꧀ ꦢꦺꦁꦤꦶꦫ" ;
+    ex:memuatTeksAsliLatin "Ku Mangké / Híng Ngunggáh Lan Déngnira" ;
+    ex:memuatTerjemahanIndonesia "Itu sekarang / Untuk naik (menghadap) dan denganmu" ;
+    dcterms:isPartOf ex:Halaman_NG_27 .
+
+ex:Baris_NG_28_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦠꦸꦲꦸꦤ꧀ꦏꦸ .... ꦏꦼꦩꦸꦢꦺꦴꦤ꧀ ꦪꦁ ꦤꦼꦩꦫ" ;
+    ex:memuatTeksAsliLatin "Gusti .... (korup) Hamangko Kang Nnama" ;
+    ex:memuatTerjemahanIndonesia "Tuanku .... (korup) kemudian yang bernama" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa ".... ꦄꦧ꧀ꦢꦸꦭꦃ ꦩꦼꦚ꧀ꦗꦶ ꦥꦼꦂꦏꦠꦲꦤ꧀ ꦱꦁ" ;
+    ex:memuatTeksAsliLatin ".... (korup) Bdulah Dadya Ling Ngira Sang" ;
+    ex:memuatTerjemahanIndonesia ".... (korup) Abdullah menjadi perkataan Sang" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦫꦗ .... ꦤꦩꦚꦺꦴ ꦲꦶꦠꦸ ꦢꦶ" ;
+    ex:memuatTeksAsliLatin "Nata .... (korup) Namané Pu Nika / Híng" ;
+    ex:memuatTerjemahanIndonesia "Raja .... (korup) namanya itu / di" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦪꦁ ꦢꦶ ꦢꦼꦥꦤ꧀ (ꦥꦭꦶꦁ ꦢꦸꦭꦸ) ꦲꦢ ꦲꦺꦴꦫꦁ // ꦥꦫ ꦧꦸꦢꦏ꧀" ;
+    ex:memuatTeksAsliLatin "Kang Ngarsa Hanaking Wang // Pun Ninyah" ;
+    ex:memuatTerjemahanIndonesia "Yang di depan (paling dulu) ada orang // Para budak" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦩꦠꦸꦂ ꦮꦲꦻ ꦥꦠꦶꦩꦃ ꦧꦼꦂꦱꦩ" ;
+    ex:memuatTeksAsliLatin "Matur Sirékí Patimah Sammi Na" ;
+    ex:memuatTerjemahanIndonesia "Berkata" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦢꦼꦔꦤ꧀ ꦱꦁ ꦫꦗ ꦩꦠꦸꦂ ꦩꦁꦏ" ;
+    ex:memuatTeksAsliLatin "Manya Sang Nata Ngandika Mangko Ha" ;
+    ex:memuatTerjemahanIndonesia "Dengan Sang Raja berkata" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦄꦧ꧀ꦢꦸꦭꦃ ꦲꦤꦏ꧀ ꦱꦪ ꦠꦼꦠꦩꦶ" ;
+    ex:memuatTeksAsliLatin "Bdulah Hanak Manira Nanging Sam" ;
+    ex:memuatTerjemahanIndonesia "Abdullah" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦱꦸꦢꦃ ꦧꦼꦂꦲꦶꦱ꧀ꦠꦿꦶ (ꦧꦼꦂꦏꦸꦭꦸꦒꦫ) ꦠꦶꦢꦏ꧀ꦭꦃ ꦥꦤ꧀ꦠꦱ꧀" ;
+    ex:memuatTeksAsliLatin "Pun Kanakrama Tan Patut" ;
+    ex:memuatTerjemahanIndonesia "Sudah beristri (berkeluarga) tidaklah pantas" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦈꦤ꧀ꦠꦸꦏ꧀ ꦩꦼꦚ꧀ꦗꦶ ꦲꦶꦱ꧀ꦠꦿꦶ/ꦱꦸꦩꦶ ꦧꦭꦺꦪꦸ" ;
+    ex:memuatTeksAsliLatin "Ta Rabi Nipun Hélik Mantunni" ;
+    ex:memuatTerjemahanIndonesia "Untuk menjadi istri/suami beliau" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_28_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦆꦠꦸ // ꦪꦁ ꦤꦼꦩꦫ ꦢꦺꦮꦶ" ;
+    ex:memuatTeksAsliLatin "Punika // Hang Manah Haran Déwi" ;
+    ex:memuatTerjemahanIndonesia "Itu // yang bernama Dewi" ;
+    dcterms:isPartOf ex:Halaman_NG_28 .
+
+ex:Baris_NG_29_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦏꦶ .... ꦔꦶꦏꦸ ꦥꦒꦂ ...... ꦏꦢꦾ ꦭ" ;
+    ex:memuatTeksAsliLatin "Ki ... (korup) Ngiku Pagar ...... (korup) Kadya La" ;
+    ex:memuatTerjemahanIndonesia "Sang .... (korup) pagar .... (korup) seperti" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_29_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦩꦶꦤꦶꦁ ꦲꦥꦁꦒꦶꦃ ꦩꦁꦏꦺ ꦲꦩꦶꦲꦂꦱꦶ ꦲ" ;
+    ex:memuatTeksAsliLatin "Mining Apanggih Mangké Hamiharsi Ha" ;
+    ex:memuatTerjemahanIndonesia "Bertemu kemudian mendengar" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_29_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦤꦲꦶꦁ ꦠꦤ ꦲꦤꦏꦶꦱꦸꦤ꧀ ꦲꦧ꧀ꦢꦸꦭꦃ" ;
+    ex:memuatTeksAsliLatin "Nahing Tan Hanakisun Habdullah" ;
+    ex:memuatTerjemahanIndonesia "Tetapi tidak ada anakku Abdullah" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_29_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦪꦺ ꦱꦶ ꦩꦁꦏꦺ ꦱꦶꦫꦺꦏꦸ ꦩꦫꦃ" ;
+    ex:memuatTeksAsliLatin "Yé Sí Mangko Siréku Maraha" ;
+    ex:memuatTerjemahanIndonesia "Jika sekarang engkau marah" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_29_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦱꦶꦫ ꦲꦶꦁ ꦠꦩꦤ // ꦲꦩꦠ꧀ ꦲꦤꦺꦩ" ;
+    ex:memuatTeksAsliLatin "Sira Híng Taman // Hamat Hanem" ;
+    ex:memuatTerjemahanIndonesia "Engkau di taman // Dengan sangat hormat" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_29_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦧꦃ ꦱꦶꦫꦺꦏꦶ ꦢꦢꦾ ꦱꦶꦫ" ;
+    ex:memuatTeksAsliLatin "Bah Siréki Dadya Sira" ;
+    ex:memuatTerjemahanIndonesia "Sembahmu" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_29_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦩꦫꦶꦁ ꦠꦩꦤ ꦥꦸꦤ ꦤꦶꦚꦃ ꦭꦸꦩꦩ" ;
+    ex:memuatTeksAsliLatin "Maring Taman Pun Ninyah Lumam" ;
+    ex:memuatTerjemahanIndonesia "Pergi ke taman" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_29_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦥꦃ ꦲꦒꦺ ꦭꦼꦁꦏ꧀ ꦤꦠ ꦱꦶꦫ ꦱꦁ ꦔꦾ" ;
+    ex:memuatTeksAsliLatin "Pah Hagé Léngak Nata Sira Sang Ngya" ;
+    ex:memuatTerjemahanIndonesia "Dengan cepat" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_29_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦠꦼꦤ ꦤꦶꦁ ꦗꦿꦺ ꦠꦩꦤ ꦲꦧ꧀ꦢꦸꦭꦃ ꦩꦁ-" ;
+    ex:memuatTeksAsliLatin "Ten Ning Jro Taman Abdullah Mang-" ;
+    ex:memuatTerjemahanIndonesia "Di dalam taman" ;
+    dcterms:isPartOf ex:Halaman_NG_29 .
+
+ex:Baris_NG_30_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦏꦺ ꦮꦶꦤꦸ (ꦏꦺꦴꦫꦸꦥ) ꦭ ꦩꦁꦏꦺ ꦕꦃꦪ ꦤꦶ" ;
+    ex:memuatTeksAsliLatin "Ké Wínu (korup) L Mangké Cahya Ní" ;
+    ex:memuatTerjemahanIndonesia "Maka di sini (korup) / Sekarang cahaya" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "ꦫ // (ꦏꦺꦴꦫꦸꦥ) ꦱꦶꦁꦔ꧀ꦭꦶꦁ ꦥꦸꦤꦶꦏꦶ ꦮꦂꦤ" ;
+    ex:memuatTeksAsliLatin "Ra // (korup) Singngling Puníki Warna" ;
+    ex:memuatTerjemahanIndonesia "(korup) Bersinar" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "ꦤꦶꦫ ꦭꦶꦂ ꦥꦮꦏ ꦏꦭꦤ꧀ꦔꦶꦁ ꦥꦸꦂꦤꦩ" ;
+    ex:memuatTeksAsliLatin "Nira Lir Pawaka Kalanning Purnama" ;
+    ex:memuatTerjemahanIndonesia "Seperti api di kala purnama" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_04 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 4 ;
+    ex:memuatAksaraJawa "ꦥꦢꦁ ꦒꦸꦩꦮꦁ ꦏꦢꦾ ꦤ꧀ꦤꦮꦁ ꦩ" ;
+    ex:memuatTeksAsliLatin "Padang Gumawang Kadya Nnawang Ma" ;
+    ex:memuatTerjemahanIndonesia "Terang benderang seperti melihat" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦤꦺꦴꦫꦺꦴꦁ ꦏꦢꦾ ꦭꦶꦢꦃ ꦩꦤ꧀ꦠꦸꦂ" ;
+    ex:memuatTeksAsliLatin "Neorong Kadya Lidah Mantur" ;
+    ex:memuatTerjemahanIndonesia "Memancar seperti lidah menjulur" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "ꦒꦫ ꦭꦾꦶꦂ ꦫꦤꦫꦸꦁ / ꦏꦪ ꦒꦸꦂꦤꦶꦠꦾ" ;
+    ex:memuatTeksAsliLatin "Gara Lyir Ranarung / Kaya Gurnitya" ;
+    ex:memuatTerjemahanIndonesia "Gerak seperti kobaran api / Seperti petir" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_07 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 7 ;
+    ex:memuatAksaraJawa "ꦒꦸꦩꦼꦧꦾꦂ // ꦱꦸꦫꦩ ꦏꦁ ꦱꦸꦂꦪ" ;
+    ex:memuatTeksAsliLatin "Gumebyar // Suram Kang Surya" ;
+    ex:memuatTerjemahanIndonesia "Berkilauan // Redupkan matahari" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_08 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 8 ;
+    ex:memuatAksaraJawa "ꦱꦫꦶ ꦏꦱꦶꦭꦺꦪꦤ ꦢꦺꦤꦶꦁ ꦕꦃ" ;
+    ex:memuatTeksAsliLatin "Sari Kasileyan Déning Cah" ;
+    ex:memuatTerjemahanIndonesia "Yang (semula) tertutup oleh cahaya" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_09 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 9 ;
+    ex:memuatAksaraJawa "ꦪꦪ ꦤꦸꦂꦧꦸꦮꦠ꧀ ꦩꦁꦏꦺ ꦆꦏ ꦗꦿꦺ" ;
+    ex:memuatTeksAsliLatin "Yya Nurbuwat Mangké Ika Jro" ;
+    ex:memuatTerjemahanIndonesia "Kenabian" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_30_10 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 10 ;
+    ex:memuatAksaraJawa "ꦢ (ꦏꦺꦴꦫꦸꦥ) ꦲꦥꦢꦁ ꦩꦁꦏꦺ ꦏꦏꦺꦭ꧀ꦤꦾꦺ-" ;
+    ex:memuatTeksAsliLatin "Da (korup) Hapadang Mangko Kakelnye-" ;
+    ex:memuatTerjemahanIndonesia "(korup) Terang" ;
+    dcterms:isPartOf ex:Halaman_NG_30 .
+
+ex:Baris_NG_31_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦤꦃꦲꦶ // ꦲꦤꦺꦁ " ;
+    ex:memuatTeksAsliLatin "Nahhi // Hanéng " ;
+    ex:memuatTerjemahanIndonesia "di" ;
+    dcterms:isPartOf ex:Halaman_NG_31 .
+
+ex:Baris_NG_31_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "ꦢꦃ ꦲꦺꦤ ….. ꦲꦶꦁꦏꦁ …...." ;
+    ex:memuatTeksAsliLatin "Dah Hena (korup) Hingkang (korup)" ;
+    ex:memuatTerjemahanIndonesia "Sudah" ;
+    dcterms:isPartOf ex:Halaman_NG_31 .
+
+ex:Baris_NG_31_06 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 6 ;
+    ex:memuatAksaraJawa "…..... ꦏꦺꦤꦁ" ;
+    ex:memuatTeksAsliLatin "(korup) Kenang" ;
+    ex:memuatTerjemahanIndonesia "(tidak terbaca) terkenang" ;
+    dcterms:isPartOf ex:Halaman_NG_31 .
+
+ex:Baris_NG_34_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦲꦶꦁ ꦗꦺꦁ ꦔꦤ꧀ꦢꦶꦏ ꦲꦶꦁ (ꦏꦺꦴꦫꦸꦥ꧀)" ;
+    ex:memuatTeksAsliLatin "hing jeng ngandika hing (korup)" ;
+    ex:memuatTerjemahanIndonesia "kepada jeng andika di (korup)" ;
+    dcterms:isPartOf ex:Halaman_NG_34 .
+
+ex:Baris_NG_35_01 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 1 ;
+    ex:memuatAksaraJawa "ꦥꦸꦠꦿꦶ ꦄꦢꦶ ꦩꦶꦢꦼꦫ ꦱꦺꦁ ꦤꦒꦫ ꦩꦁꦏꦶꦤ꧀" ;
+    ex:memuatTeksAsliLatin "putri adi midera séng nagara mangkin" ;
+    ex:memuatTerjemahanIndonesia "Putri adi linuwih berkelilinglah ke seluruh penjara negara" ;
+    dcterms:isPartOf ex:Halaman_NG_35 .
+
+ex:Baris_NG_35_02 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 2 ;
+    ex:memuatAksaraJawa "(korup) ꦏꦪ ꦱꦶꦫ // ꦏꦪ ꦮꦶꦢꦢ" ;
+    ex:memuatTeksAsliLatin "(korup) kaya sira // kaya widada" ;
+    ex:memuatTerjemahanIndonesia "(korup) rupa sepertimu" ;
+    dcterms:isPartOf ex:Halaman_NG_35 .
+
+ex:Baris_NG_35_03 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 3 ;
+    ex:memuatAksaraJawa "(korup) ꦲꦶꦁ ꦩꦤ (korup)" ;
+    ex:memuatTeksAsliLatin "(korup) hing mana (korup)" ;
+    ex:memuatTerjemahanIndonesia "(korup) dalam hati (korup)" ;
+    dcterms:isPartOf ex:Halaman_NG_35 .
+
+ex:Baris_NG_35_05 a ex:BarisTeks ;
+    ex:ditulisDalamAksara ex:AksaraJawaCacarakan ;
+    ex:lineNumber 5 ;
+    ex:memuatAksaraJawa "(korup) ꦱꦼꦏꦂ (korup)" ;
+    ex:memuatTeksAsliLatin "(korup) sekar (korup)" ;
+    ex:memuatTerjemahanIndonesia "(korup) bunga (korup)" ;
+    dcterms:isPartOf ex:Halaman_NG_35 .
+
+ex:BumiGaluh a ex:LokasiGeografis ;
+    dcterms:title "Bumi Galuh" .
+
+ex:Dewa a ex:EntitasKewenangan ;
+    rdfs:label "Dewa (Penguasa yang lebih tinggi)" .
+
+ex:Halaman_NG_34 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_34_01 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-34 dari Naskah Gandoang." .
+
+ex:JuruKunciSitusGandoangSebelumnya a foaf:Person ;
+    foaf:name "Juru Kunci Situs Gandoang (Leluhur)" .
+
+ex:LokasiGandoang a ex:LokasiGeografis ;
+    dcterms:spatial "Wanasigra, Sindangkasih, Ciamis" ;
+    dcterms:title "Gandoang" .
+
+ex:Sangasar a ex:Tokoh ;
+    ex:berkuasaAtasJumlahOrang 2960 ;
+    ex:diberiKuasaAtas ex:BumiGaluh ;
+    ex:diperolehDari ex:Dewa ;
+    foaf:name "Sangasar" .
+
+ex:Halaman_NG_31 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_31_01,
+        ex:Baris_NG_31_05,
+        ex:Baris_NG_31_06 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-31 dari Naskah Gandoang." .
+
+ex:Halaman_NG_12 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_12_01,
+        ex:Baris_NG_12_02,
+        ex:Baris_NG_12_03,
+        ex:Baris_NG_12_04 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-12 dari Naskah Gandoang." .
+
+ex:Halaman_NG_35 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_35_01,
+        ex:Baris_NG_35_02,
+        ex:Baris_NG_35_03,
+        ex:Baris_NG_35_05 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-35 dari Naskah Gandoang." .
+
+ex:Halaman_NG_03 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_03_01,
+        ex:Baris_NG_03_02,
+        ex:Baris_NG_03_03,
+        ex:Baris_NG_03_04,
+        ex:Baris_NG_03_05 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-3 dari Naskah Gandoang." .
+
+ex:Halaman_NG_14 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_14_01,
+        ex:Baris_NG_14_02,
+        ex:Baris_NG_14_03,
+        ex:Baris_NG_14_04,
+        ex:Baris_NG_14_05,
+        ex:Baris_NG_14_06 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-14 dari Naskah Gandoang." .
+
+ex:Halaman_NG_15 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_15_01,
+        ex:Baris_NG_15_02,
+        ex:Baris_NG_15_03,
+        ex:Baris_NG_15_04,
+        ex:Baris_NG_15_05,
+        ex:Baris_NG_15_06 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-15 dari Naskah Gandoang." .
+
+ex:Halaman_NG_02 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_02_01,
+        ex:Baris_NG_02_02,
+        ex:Baris_NG_02_03,
+        ex:Baris_NG_02_04,
+        ex:Baris_NG_02_05,
+        ex:Baris_NG_02_06,
+        ex:Baris_NG_02_07,
+        ex:Baris_NG_02_08,
+        ex:Baris_NG_02_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-2 dari Naskah Gandoang." .
+
+ex:Halaman_NG_11 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_11_01,
+        ex:Baris_NG_11_02,
+        ex:Baris_NG_11_03,
+        ex:Baris_NG_11_04,
+        ex:Baris_NG_11_05,
+        ex:Baris_NG_11_06,
+        ex:Baris_NG_11_07,
+        ex:Baris_NG_11_08,
+        ex:Baris_NG_11_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-11 dari Naskah Gandoang." .
+
+ex:Halaman_NG_18 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_18_01,
+        ex:Baris_NG_18_02,
+        ex:Baris_NG_18_03,
+        ex:Baris_NG_18_04,
+        ex:Baris_NG_18_05,
+        ex:Baris_NG_18_06,
+        ex:Baris_NG_18_07,
+        ex:Baris_NG_18_08,
+        ex:Baris_NG_18_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-18 dari Naskah Gandoang." .
+
+ex:Halaman_NG_19 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_19_01,
+        ex:Baris_NG_19_02,
+        ex:Baris_NG_19_03,
+        ex:Baris_NG_19_04,
+        ex:Baris_NG_19_05,
+        ex:Baris_NG_19_06,
+        ex:Baris_NG_19_07,
+        ex:Baris_NG_19_08,
+        ex:Baris_NG_19_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-19 dari Naskah Gandoang." .
+
+ex:Halaman_NG_20 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_20_01,
+        ex:Baris_NG_20_02,
+        ex:Baris_NG_20_03,
+        ex:Baris_NG_20_04,
+        ex:Baris_NG_20_05,
+        ex:Baris_NG_20_06,
+        ex:Baris_NG_20_07,
+        ex:Baris_NG_20_08,
+        ex:Baris_NG_20_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-20 dari Naskah Gandoang." .
+
+ex:Halaman_NG_21 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_21_01,
+        ex:Baris_NG_21_02,
+        ex:Baris_NG_21_03,
+        ex:Baris_NG_21_04,
+        ex:Baris_NG_21_05,
+        ex:Baris_NG_21_06,
+        ex:Baris_NG_21_07,
+        ex:Baris_NG_21_08,
+        ex:Baris_NG_21_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-21 dari Naskah Gandoang." .
+
+ex:Halaman_NG_22 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_22_01,
+        ex:Baris_NG_22_02,
+        ex:Baris_NG_22_03,
+        ex:Baris_NG_22_04,
+        ex:Baris_NG_22_05,
+        ex:Baris_NG_22_06,
+        ex:Baris_NG_22_07,
+        ex:Baris_NG_22_08,
+        ex:Baris_NG_22_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-22 dari Naskah Gandoang." .
+
+ex:Halaman_NG_23 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_23_01,
+        ex:Baris_NG_23_02,
+        ex:Baris_NG_23_03,
+        ex:Baris_NG_23_04,
+        ex:Baris_NG_23_05,
+        ex:Baris_NG_23_06,
+        ex:Baris_NG_23_07,
+        ex:Baris_NG_23_08,
+        ex:Baris_NG_23_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-23 dari Naskah Gandoang." .
+
+ex:Halaman_NG_24 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_24_01,
+        ex:Baris_NG_24_02,
+        ex:Baris_NG_24_03,
+        ex:Baris_NG_24_04,
+        ex:Baris_NG_24_05,
+        ex:Baris_NG_24_06,
+        ex:Baris_NG_24_07,
+        ex:Baris_NG_24_08,
+        ex:Baris_NG_24_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-24 dari Naskah Gandoang." .
+
+ex:Halaman_NG_25 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_25_01,
+        ex:Baris_NG_25_02,
+        ex:Baris_NG_25_03,
+        ex:Baris_NG_25_04,
+        ex:Baris_NG_25_05,
+        ex:Baris_NG_25_06,
+        ex:Baris_NG_25_07,
+        ex:Baris_NG_25_08,
+        ex:Baris_NG_25_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-25 dari Naskah Gandoang." .
+
+ex:Halaman_NG_26 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_26_01,
+        ex:Baris_NG_26_02,
+        ex:Baris_NG_26_03,
+        ex:Baris_NG_26_04,
+        ex:Baris_NG_26_05,
+        ex:Baris_NG_26_06,
+        ex:Baris_NG_26_07,
+        ex:Baris_NG_26_08,
+        ex:Baris_NG_26_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-26 dari Naskah Gandoang." .
+
+ex:Halaman_NG_27 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_27_01,
+        ex:Baris_NG_27_02,
+        ex:Baris_NG_27_03,
+        ex:Baris_NG_27_04,
+        ex:Baris_NG_27_05,
+        ex:Baris_NG_27_06,
+        ex:Baris_NG_27_07,
+        ex:Baris_NG_27_08,
+        ex:Baris_NG_27_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-27 dari Naskah Gandoang." .
+
+ex:Halaman_NG_29 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_29_01,
+        ex:Baris_NG_29_02,
+        ex:Baris_NG_29_03,
+        ex:Baris_NG_29_04,
+        ex:Baris_NG_29_05,
+        ex:Baris_NG_29_06,
+        ex:Baris_NG_29_07,
+        ex:Baris_NG_29_08,
+        ex:Baris_NG_29_09 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-29 dari Naskah Gandoang." .
+
+ex:Halaman_NG_04 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_04_01,
+        ex:Baris_NG_04_02,
+        ex:Baris_NG_04_03,
+        ex:Baris_NG_04_04,
+        ex:Baris_NG_04_05,
+        ex:Baris_NG_04_06,
+        ex:Baris_NG_04_07,
+        ex:Baris_NG_04_08,
+        ex:Baris_NG_04_09,
+        ex:Baris_NG_04_10 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-4 dari Naskah Gandoang." .
+
+ex:Halaman_NG_05 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_05_01,
+        ex:Baris_NG_05_02,
+        ex:Baris_NG_05_03,
+        ex:Baris_NG_05_04,
+        ex:Baris_NG_05_05,
+        ex:Baris_NG_05_06,
+        ex:Baris_NG_05_07,
+        ex:Baris_NG_05_08,
+        ex:Baris_NG_05_09,
+        ex:Baris_NG_05_10 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-5 dari Naskah Gandoang." .
+
+ex:Halaman_NG_06 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_06_01,
+        ex:Baris_NG_06_02,
+        ex:Baris_NG_06_03,
+        ex:Baris_NG_06_04,
+        ex:Baris_NG_06_05,
+        ex:Baris_NG_06_06,
+        ex:Baris_NG_06_07,
+        ex:Baris_NG_06_08,
+        ex:Baris_NG_06_09,
+        ex:Baris_NG_06_10 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-6 dari Naskah Gandoang." .
+
+ex:Halaman_NG_07 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_07_01,
+        ex:Baris_NG_07_02,
+        ex:Baris_NG_07_03,
+        ex:Baris_NG_07_04,
+        ex:Baris_NG_07_05,
+        ex:Baris_NG_07_06,
+        ex:Baris_NG_07_07,
+        ex:Baris_NG_07_08,
+        ex:Baris_NG_07_09,
+        ex:Baris_NG_07_10 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-7 dari Naskah Gandoang." .
+
+ex:Halaman_NG_28 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_28_01,
+        ex:Baris_NG_28_02,
+        ex:Baris_NG_28_03,
+        ex:Baris_NG_28_04,
+        ex:Baris_NG_28_05,
+        ex:Baris_NG_28_06,
+        ex:Baris_NG_28_07,
+        ex:Baris_NG_28_08,
+        ex:Baris_NG_28_09,
+        ex:Baris_NG_28_10 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-28 dari Naskah Gandoang." .
+
+ex:Halaman_NG_30 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_30_01,
+        ex:Baris_NG_30_02,
+        ex:Baris_NG_30_03,
+        ex:Baris_NG_30_04,
+        ex:Baris_NG_30_05,
+        ex:Baris_NG_30_06,
+        ex:Baris_NG_30_07,
+        ex:Baris_NG_30_08,
+        ex:Baris_NG_30_09,
+        ex:Baris_NG_30_10 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-30 dari Naskah Gandoang." .
+
+ex:Halaman_NG_08 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_08_01,
+        ex:Baris_NG_08_02,
+        ex:Baris_NG_08_03,
+        ex:Baris_NG_08_05,
+        ex:Baris_NG_08_06,
+        ex:Baris_NG_08_07,
+        ex:Baris_NG_08_08,
+        ex:Baris_NG_08_09,
+        ex:Baris_NG_08_10,
+        ex:Baris_NG_08_11,
+        ex:Baris_NG_08_12,
+        ex:Baris_NG_08_13 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-8 dari Naskah Gandoang." .
+
+ex:Halaman_NG_10 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_10_01,
+        ex:Baris_NG_10_02,
+        ex:Baris_NG_10_03,
+        ex:Baris_NG_10_04,
+        ex:Baris_NG_10_05,
+        ex:Baris_NG_10_06,
+        ex:Baris_NG_10_07,
+        ex:Baris_NG_10_08,
+        ex:Baris_NG_10_09,
+        ex:Baris_NG_10_10,
+        ex:Baris_NG_10_11,
+        ex:Baris_NG_10_12 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-10 dari Naskah Gandoang." .
+
+ex:Halaman_NG_16 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_16_01,
+        ex:Baris_NG_16_02,
+        ex:Baris_NG_16_03,
+        ex:Baris_NG_16_04,
+        ex:Baris_NG_16_05,
+        ex:Baris_NG_16_06,
+        ex:Baris_NG_16_07,
+        ex:Baris_NG_16_08,
+        ex:Baris_NG_16_09,
+        ex:Baris_NG_16_10,
+        ex:Baris_NG_16_11,
+        ex:Baris_NG_16_12 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-16 dari Naskah Gandoang." .
+
+ex:Halaman_NG_17 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_17_01,
+        ex:Baris_NG_17_02,
+        ex:Baris_NG_17_03,
+        ex:Baris_NG_17_04,
+        ex:Baris_NG_17_05,
+        ex:Baris_NG_17_06,
+        ex:Baris_NG_17_07,
+        ex:Baris_NG_17_08,
+        ex:Baris_NG_17_09,
+        ex:Baris_NG_17_10,
+        ex:Baris_NG_17_11,
+        ex:Baris_NG_17_12 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-17 dari Naskah Gandoang." .
+
+ex:Halaman_NG_09 a ex:HalamanNaskah ;
+    ex:memuatBarisTeks ex:Baris_NG_09_01,
+        ex:Baris_NG_09_02,
+        ex:Baris_NG_09_03,
+        ex:Baris_NG_09_04,
+        ex:Baris_NG_09_05,
+        ex:Baris_NG_09_06,
+        ex:Baris_NG_09_07,
+        ex:Baris_NG_09_08,
+        ex:Baris_NG_09_09,
+        ex:Baris_NG_09_10,
+        ex:Baris_NG_09_11,
+        ex:Baris_NG_09_12,
+        ex:Baris_NG_09_13 ;
+    dcterms:isPartOf ex:NaskahGandoang ;
+    rdfs:comment "Merupakan halaman ke-9 dari Naskah Gandoang." .
+
+ex:NaskahGandoang a ex:NaskahKuno ;
+    ex:disimpanDiLokasiFisik ex:LokasiGandoang ;
+    ex:jumlahBarisTeksPerHalamanAkhir 6 ;
+    ex:jumlahBarisTeksPerHalamanDepan 10 ;
+    ex:jumlahHalamanIsi 35 ;
+    ex:jumlahHalamanKosong 2 ;
+    ex:jumlahTotalHalaman 37 ;
+    ex:memilikiPemilikSaatIni ex:AkiHajiMahmud ;
+    ex:merupakanWarisanDari ex:JuruKunciSitusGandoangSebelumnya ;
+    ex:ukuranAreaTeks "12 x 9 cm" ;
+    ex:ukuranFisikNaskah "15.5 x 12.2 cm" ;
+    dcterms:creator "belum diketahui" ;
+    dcterms:description "Naskah kuno yang berisi surat pengukuhan kekuasaan, silsilah hingga Nabi Adam AS, dan primbon." ;
+    dcterms:format "daluwang" ;
+    dcterms:language "jv" ;
+    dcterms:title "Naskah Gandoang" .
+
+ex:AksaraJawaCacarakan a ex:Aksara ;
+    rdfs:label "Aksara Jawa (Cacarakan)" .
+
