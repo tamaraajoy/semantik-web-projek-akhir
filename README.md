@@ -66,14 +66,14 @@ Naskah berasal dari:
 2. Jalankan jena fuseki server:
     buka batch file dari jena fuseki yang sudah di download https://jena.apache.org/download/index.cgi
 
-3. akses localhost 
-    buka browser http://localhost:3030/
+3. Akses localhost 
+    buka browser : http://localhost:3030/
 
-4. tambah dataset di jena fuseki
+4. Tambah dataset di jena fuseki
     pada dataset -> add data upload file ttl 
 
-5. endpoint untuk interface
-    const endpoint = "http://localhost:3030/db_naskah/sparql";
+5. Endpoint untuk interface
+    const endpoint : "http://localhost:3030/db_naskah/sparql";
 
-6. jalankan interface di browser
+6. Jalankan interface di browser
 
